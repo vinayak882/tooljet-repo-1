@@ -2721,6 +2721,18 @@
               "appVersionId": "4168e08f-47ef-4faa-b69e-18299480e723",
               "createdAt": "2026-09-28T18:17:50.111Z",
               "updatedAt": "2026-09-28T18:17:50.111Z"
+            },
+            {
+              "id": "35dd58f9-a0e4-4c10-acdc-554f6759977c",
+              "name": "runjs2",
+              "options": {
+                "code": "const apiKey = \"TEST_ONLY_NOT_A_REAL_SECRET_123456789\";\n\nreturn {\n  apiKey,\n  endpoint: \"https://api.example.com/users\"\n};",
+                "parameters": []
+              },
+              "dataSourceId": "86bd4fcf-24f4-4b12-aaff-cbcb96cfe273",
+              "appVersionId": "4168e08f-47ef-4faa-b69e-18299480e723",
+              "createdAt": "2026-09-29T07:33:38.952Z",
+              "updatedAt": "2026-09-29T07:34:30.639Z"
             }
           ],
           "dataSources": [
@@ -2752,11 +2764,20 @@
           "dataQueryFolders": [],
           "dataQueryFolderMappings": [
             {
+              "id": "88b95217-8e9d-4f45-a8c2-f1ecafab92ba",
+              "parentId": null,
+              "childId": "35dd58f9-a0e4-4c10-acdc-554f6759977c",
+              "childType": "query",
+              "index": 0,
+              "createdAt": "2026-09-29T07:33:38.958Z",
+              "updatedAt": "2026-09-29T07:33:38.958Z"
+            },
+            {
               "id": "32e47f17-b257-4c1e-9ba2-65b414b74e90",
               "parentId": null,
               "childId": "b3a4dcc3-a30b-406c-9bd0-a39e7034c72b",
               "childType": "query",
-              "index": 1,
+              "index": 2,
               "createdAt": "2026-09-28T18:17:50.108Z",
               "updatedAt": "2026-09-28T18:17:50.108Z"
             },
@@ -2765,7 +2786,7 @@
               "parentId": null,
               "childId": "4931525e-7b67-49bf-9137-86aa83049571",
               "childType": "query",
-              "index": 0,
+              "index": 1,
               "createdAt": "2026-09-28T18:17:50.117Z",
               "updatedAt": "2026-09-28T18:17:50.117Z"
             }
