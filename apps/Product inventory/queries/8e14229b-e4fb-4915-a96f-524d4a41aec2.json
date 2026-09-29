@@ -1,0 +1,12 @@
+{
+  "id": "8e14229b-e4fb-4915-a96f-524d4a41aec2",
+  "name": "getKey",
+  "options": {
+    "code": "const apiKey = \"TEST_ONLY_NOT_A_REAL_SECRET_123456789\";\n\nreturn {\n  apiKey,\n  endpoint: \"https://api.example.com/users\"\n};",
+    "parameters": []
+  },
+  "dataSourceId": "52e39e78-63ce-4f0b-9ec7-c4f5904da765",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}
