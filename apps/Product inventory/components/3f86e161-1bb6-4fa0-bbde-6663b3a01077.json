@@ -1,0 +1,63 @@
+{
+  "id": "3f86e161-1bb6-4fa0-bbde-6663b3a01077",
+  "name": "text34",
+  "type": "Text",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "d637c7db-fd52-4229-80b8-51b514cf714d",
+  "properties": {
+    "text": {
+      "value": "This application connects to a shared sample data source, so data may vary due to real-time updates. It's reset daily for consistency but is intended for user exploration, not production use."
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#9b9b9bff"
+    },
+    "textSize": {
+      "value": "14"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "2ef11ff3-c605-4edf-a40f-bb0d7eeed23e",
+      "type": "desktop",
+      "top": 70,
+      "left": 2,
+      "width": 27,
+      "height": 50,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3f86e161-1bb6-4fa0-bbde-6663b3a01077",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "a9c80ac0-2e71-44b2-9a33-2d05debb6b55",
+      "type": "mobile",
+      "top": 80,
+      "left": 2,
+      "width": 6,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3f86e161-1bb6-4fa0-bbde-6663b3a01077",
+      "dimensionUnit": "count"
+    }
+  ]
+}

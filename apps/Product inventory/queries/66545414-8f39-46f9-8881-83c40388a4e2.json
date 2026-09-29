@@ -1,0 +1,13 @@
+{
+  "id": "66545414-8f39-46f9-8881-83c40388a4e2",
+  "name": "getProductStats",
+  "options": {
+    "code": "totalQty = 0;\ninStockQty = 0;\nlowInStock = 0;\noutOfStock = 0;\nyetToReceive = 0;\n\nqueries.getProducts.data.forEach((product) => {\n  totalQty += Number(product.quantity);\n  inStockQty += product.status == \"In stock\" ? Number(product.quantity) : 0;\n  yetToReceive += product.status == \"Yet to receive\" ? Number(product.quantity) : 0;\n  lowInStock += Number(product.quantity) <= 10 && Number(product.quantity) > 0 ? 1 : 0;\n  outOfStock += Number(product.quantity) == 0 ? 1 : 0;\n});\n\nreturn {\n  quantityInTotal: totalQty,\n  quantityInStock: inStockQty,\n  quantityYetToReceive: yetToReceive,\n  lowInStock: lowInStock,\n  outOfStock: outOfStock,\n};",
+    "hasParamSupport": true,
+    "parameters": []
+  },
+  "dataSourceId": "52e39e78-63ce-4f0b-9ec7-c4f5904da765",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd",
+  "kind": "runjs",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "62cd34ee-8b15-4f32-8b7b-e09ada1d0732",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "modal": "9a36a277-8f42-461b-a62f-2dfea230d279",
+    "eventId": "onDataQuerySuccess",
+    "message": "Hello world!",
+    "actionId": "close-modal",
+    "alertType": "info"
+  },
+  "sourceId": "c8130403-dc99-4226-b7ae-1e3c54072f89",
+  "target": "data_query",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd"
+}

@@ -1,0 +1,67 @@
+{
+  "id": "d716ebc8-c861-4a19-a4cb-00341d50d7d2",
+  "name": "textarea3",
+  "type": "TextArea",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "9a36a277-8f42-461b-a62f-2dfea230d279",
+  "properties": {
+    "value": {
+      "value": "{{components.table1.selectedRow.description}}"
+    },
+    "placeholder": {
+      "value": "Enter product description..."
+    },
+    "legacyInputSize": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "label": ""
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{5}}"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "widthType": {
+      "value": "ofField"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "f4c26226-90d8-4803-9ba6-d7ea065a10d4",
+      "type": "desktop",
+      "top": 300.00010108947754,
+      "left": 2,
+      "width": 39.00000000000001,
+      "height": 100,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d716ebc8-c861-4a19-a4cb-00341d50d7d2",
+      "dimensionUnit": "count"
+    }
+  ]
+}

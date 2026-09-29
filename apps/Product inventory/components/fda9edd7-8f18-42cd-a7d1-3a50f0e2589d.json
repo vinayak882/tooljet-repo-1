@@ -1,0 +1,79 @@
+{
+  "id": "fda9edd7-8f18-42cd-a7d1-3a50f0e2589d",
+  "name": "button11",
+  "type": "Button",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "d637c7db-fd52-4229-80b8-51b514cf714d",
+  "properties": {
+    "text": {
+      "value": "Add new product"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#3e63ddff",
+      "fxActive": false
+    },
+    "textColor": {
+      "value": "#ffffffff",
+      "fxActive": false
+    },
+    "loaderColor": {
+      "value": "#ffffffff",
+      "fxActive": false
+    },
+    "borderRadius": {
+      "value": "{{5}}"
+    },
+    "borderColor": {
+      "value": "#3e63ddff",
+      "fxActive": false
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "0022d868-ee75-4aaf-b982-1efb9472fad1",
+      "type": "desktop",
+      "top": 30,
+      "left": 33,
+      "width": 8,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "fda9edd7-8f18-42cd-a7d1-3a50f0e2589d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

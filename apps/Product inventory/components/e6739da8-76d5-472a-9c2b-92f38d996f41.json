@@ -1,0 +1,73 @@
+{
+  "id": "e6739da8-76d5-472a-9c2b-92f38d996f41",
+  "name": "text46",
+  "type": "Text",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "a03ac230-91fd-483a-8823-c95cbae6c7d5",
+  "properties": {
+    "text": {
+      "value": "Low in stock"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": ""
+    },
+    "textColor": {
+      "value": "#ffb224ff",
+      "fxActive": false
+    },
+    "textSize": {
+      "value": "{{12}}"
+    },
+    "textAlign": {
+      "value": "center"
+    },
+    "lineHeight": {
+      "value": 1.5
+    },
+    "textIndent": {
+      "value": 0
+    },
+    "letterSpacing": {
+      "value": 0
+    },
+    "wordSpacing": {
+      "value": 0
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "e3b64a36-775f-40f8-a2dd-3503a4a23c2d",
+      "type": "desktop",
+      "top": 10,
+      "left": 1,
+      "width": 41,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "e6739da8-76d5-472a-9c2b-92f38d996f41",
+      "dimensionUnit": "count"
+    }
+  ]
+}

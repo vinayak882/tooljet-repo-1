@@ -1,0 +1,17 @@
+{
+  "id": "4613c6e3-6631-4b12-941e-cafb0f87b1f4",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "c8130403-dc99-4226-b7ae-1e3c54072f89",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "updateProduct",
+    "parameters": {}
+  },
+  "sourceId": "24bd566a-7fe5-47c7-9409-c759ae0c509c",
+  "target": "component",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd"
+}

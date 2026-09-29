@@ -1,0 +1,21 @@
+{
+  "id": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "name": "Product Inventory",
+  "handle": "Product Inventory",
+  "index": 0,
+  "disabled": false,
+  "hidden": false,
+  "icon": null,
+  "autoComputeLayout": false,
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd",
+  "pageGroupIndex": 0,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "same_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "",
+  "targetCorelationId": null
+}

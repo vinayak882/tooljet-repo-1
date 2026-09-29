@@ -1,0 +1,17 @@
+{
+  "id": "a5e33930-dc70-4bd5-a0ac-31418ef0622f",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "queryId": "9468d045-f3ba-4776-a2aa-80d96a7069bf",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "addProduct",
+    "parameters": {}
+  },
+  "sourceId": "8cb5cca8-3ca8-4ea9-833e-4fe08b7d4890",
+  "target": "component",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd"
+}

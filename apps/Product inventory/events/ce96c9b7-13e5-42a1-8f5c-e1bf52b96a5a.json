@@ -1,0 +1,14 @@
+{
+  "id": "ce96c9b7-13e5-42a1-8f5c-e1bf52b96a5a",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "The product has been added successfully.",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "9468d045-f3ba-4776-a2aa-80d96a7069bf",
+  "target": "data_query",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd"
+}

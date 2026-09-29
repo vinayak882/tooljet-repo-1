@@ -1,0 +1,69 @@
+{
+  "id": "abaedd8a-b2f7-4336-9194-106357584457",
+  "name": "text48",
+  "type": "Text",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "d637c7db-fd52-4229-80b8-51b514cf714d",
+  "properties": {
+    "text": {
+      "value": "Product Inventory"
+    },
+    "textFormat": {
+      "value": "html"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": "18"
+    },
+    "fontWeight": {
+      "value": "bold"
+    },
+    "textColor": {
+      "value": "#3e63ddff"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "7b1ae319-a8fd-4335-8cfc-ff8c0b4f9e55",
+      "type": "desktop",
+      "top": 30,
+      "left": 2,
+      "width": 16,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "abaedd8a-b2f7-4336-9194-106357584457",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "07ee0c0c-fbd2-4414-850c-788c56bdfeaf",
+      "type": "mobile",
+      "top": 140,
+      "left": 15,
+      "width": 6,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "abaedd8a-b2f7-4336-9194-106357584457",
+      "dimensionUnit": "count"
+    }
+  ]
+}

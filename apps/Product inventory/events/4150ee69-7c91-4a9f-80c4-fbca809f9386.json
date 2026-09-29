@@ -1,0 +1,17 @@
+{
+  "id": "4150ee69-7c91-4a9f-80c4-fbca809f9386",
+  "name": "onPageLoad",
+  "index": 0,
+  "event": {
+    "eventId": "onPageLoad",
+    "message": "Hello world!",
+    "queryId": "b7fc0701-2cab-4422-b7cf-0e18e64ec6f8",
+    "actionId": "run-query",
+    "alertType": "info",
+    "queryName": "getProducts",
+    "parameters": {}
+  },
+  "sourceId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "target": "page",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd"
+}

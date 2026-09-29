@@ -1,0 +1,80 @@
+{
+  "id": "9b0dc218-146f-4442-be50-fe3e414e7032",
+  "name": "dropdown2",
+  "type": "DropDown",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "91c9e562-cce6-4fa0-a418-7e9b7c78b35f",
+  "properties": {
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "schema": {
+      "value": "{{[\t{label: 'One',value: 1,disable: false,visible: true,default: true},{label: 'Two',value: 2,disable: false,visible: true},{label: 'Three',value: 3,disable: false,visible: true}\t]}}"
+    },
+    "label": {
+      "value": ""
+    },
+    "value": {
+      "value": "{{}}"
+    },
+    "values": {
+      "value": "{{[\"Apparel\",\"Appliances\",\"Beverage\",\"Electronics\",\"Food\",\"Furniture\",\"Software\"]}}"
+    },
+    "display_values": {
+      "value": "{{[\"Apparel\",\"Appliances\",\"Beverage\",\"Electronics\",\"Food\",\"Furniture\",\"Software\"]}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "placeholder": {
+      "value": "Select category..."
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "5"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "justifyContent": {
+      "value": "left"
+    }
+  },
+  "generalStyles": {
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    }
+  },
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "1ae421ba-dafc-4a3d-a625-ab54be71d38b",
+      "type": "desktop",
+      "top": 199.99996948242188,
+      "left": 29,
+      "width": 12.000000000000002,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9b0dc218-146f-4442-be50-fe3e414e7032",
+      "dimensionUnit": "count"
+    }
+  ]
+}

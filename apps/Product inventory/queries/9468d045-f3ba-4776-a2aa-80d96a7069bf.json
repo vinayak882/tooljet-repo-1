@@ -1,0 +1,43 @@
+{
+  "id": "9468d045-f3ba-4776-a2aa-80d96a7069bf",
+  "name": "addProduct",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "{{`INSERT INTO products (id, product_name, quantity, status, price, category, description, is_active)\nVALUES\n    (${Math.floor(Math.random() * 1000000) + 1}, '${components.textinput4.value}', ${components.numberinput1.value}, '${components.dropdown1.value}', ${components.numberinput2.value}, '${components.dropdown2.value}', '${components.textarea2.value}', true);`}}",
+    "events": [
+      {
+        "eventId": "onDataQuerySuccess",
+        "actionId": "show-alert",
+        "message": "Product added successfully",
+        "alertType": "success"
+      },
+      {
+        "eventId": "onDataQuerySuccess",
+        "actionId": "close-modal",
+        "message": "Hello world!",
+        "alertType": "info",
+        "modal": "e70226f2-0985-4145-9fb4-d8355258b0c5"
+      },
+      {
+        "eventId": "onDataQuerySuccess",
+        "actionId": "run-query",
+        "message": "Hello world!",
+        "alertType": "info",
+        "queryName": "getProducts",
+        "parameters": {}
+      },
+      {
+        "eventId": "onDataQueryFailure",
+        "actionId": "show-alert",
+        "message": "Failed to add product! Please check and try again.",
+        "alertType": "warning"
+      }
+    ]
+  },
+  "dataSourceId": "914f5e1f-9abb-4508-8bd3-f8acd5827d36",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

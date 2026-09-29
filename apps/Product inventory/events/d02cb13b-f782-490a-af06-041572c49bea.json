@@ -1,0 +1,16 @@
+{
+  "id": "d02cb13b-f782-490a-af06-041572c49bea",
+  "name": "onClick",
+  "index": 0,
+  "event": {
+    "ref": "Action0",
+    "modal": "9a36a277-8f42-461b-a62f-2dfea230d279",
+    "eventId": "onClick",
+    "message": "Hello world!",
+    "actionId": "show-modal",
+    "alertType": "info"
+  },
+  "sourceId": "e5373a73-592b-41e1-a253-0597d3443152",
+  "target": "table_action",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd"
+}

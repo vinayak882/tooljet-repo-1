@@ -1,0 +1,91 @@
+{
+  "id": "2064f0fa-1628-470a-8291-feb1b8b4216d",
+  "name": "button8",
+  "type": "Button",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "6f6900b8-7278-40dc-9fe5-ae7f00837558",
+  "properties": {
+    "text": {
+      "value": "Cancel"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "backgroundColor": {
+      "value": "#ffffff00",
+      "fxActive": false
+    },
+    "textColor": {
+      "value": "#e5484dff",
+      "fxActive": false
+    },
+    "loaderColor": {
+      "value": "#e5484dff",
+      "fxActive": false
+    },
+    "borderRadius": {
+      "value": "{{5}}"
+    },
+    "borderColor": {
+      "value": "#e5484dff",
+      "fxActive": false
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "textSize": {
+      "value": "{{14}}"
+    },
+    "fontWeight": {
+      "value": "normal"
+    },
+    "contentAlignment": {
+      "value": "center"
+    },
+    "hoverBackgroundColor": {
+      "value": "var(--cc-primary-brand)"
+    },
+    "hoverBackgroundMode": {
+      "value": "auto"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {},
+  "layouts": [
+    {
+      "id": "13e83e3f-ae81-4500-afe3-07d03e449a6b",
+      "type": "desktop",
+      "top": 100,
+      "left": 10,
+      "width": 10.000000000000002,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2064f0fa-1628-470a-8291-feb1b8b4216d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

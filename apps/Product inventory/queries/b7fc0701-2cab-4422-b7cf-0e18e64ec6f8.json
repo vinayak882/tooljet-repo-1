@@ -1,0 +1,25 @@
+{
+  "id": "b7fc0701-2cab-4422-b7cf-0e18e64ec6f8",
+  "name": "getProducts",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "{{`SELECT *\nFROM products\nWHERE\n    is_active = true\n    AND (\n        product_name ILIKE '%${components.table1.searchText}%' OR\n        status ILIKE '%${components.table1.searchText}%' OR\n        description ILIKE '%${components.table1.searchText}%' OR\n        category ILIKE '%${components.table1.searchText}%'\n    )\nORDER BY id DESC;`}}",
+    "events": [
+      {
+        "eventId": "onDataQuerySuccess",
+        "actionId": "run-query",
+        "message": "Hello world!",
+        "alertType": "info",
+        "queryName": "getProductStats",
+        "parameters": {}
+      }
+    ],
+    "runOnPageLoad": false
+  },
+  "dataSourceId": "914f5e1f-9abb-4508-8bd3-f8acd5827d36",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

@@ -1,0 +1,96 @@
+{
+  "id": "b58fe7f6-5cd2-4580-9939-b52bdd09ed83",
+  "name": "numberinput2",
+  "type": "NumberInput",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "91c9e562-cce6-4fa0-a418-7e9b7c78b35f",
+  "properties": {
+    "value": {
+      "value": "0"
+    },
+    "placeholder": {
+      "value": "{{components.numberinput2.value}}"
+    },
+    "decimalPlaces": {
+      "value": "{{2}}"
+    },
+    "loadingState": {
+      "value": "{{false}}"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "label": "",
+    "legacyInputSize": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "borderRadius": {
+      "value": "{{5}}"
+    },
+    "backgroundColor": {
+      "value": "",
+      "fxActive": false
+    },
+    "borderColor": {
+      "value": "#dadcdeff"
+    },
+    "textColor": {
+      "value": "#232e3c"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "widthType": {
+      "value": "ofField"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "minValue": {
+      "value": "0.50"
+    },
+    "maxValue": {
+      "value": "999999"
+    }
+  },
+  "layouts": [
+    {
+      "id": "baa4ed43-03ec-43f3-87e2-2170b452c9f3",
+      "type": "desktop",
+      "top": 199.9999885559082,
+      "left": 9,
+      "width": 12,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "b58fe7f6-5cd2-4580-9939-b52bdd09ed83",
+      "dimensionUnit": "count"
+    }
+  ]
+}

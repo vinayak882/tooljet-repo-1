@@ -1,0 +1,43 @@
+{
+  "id": "c8130403-dc99-4226-b7ae-1e3c54072f89",
+  "name": "updateProduct",
+  "options": {
+    "mode": "sql",
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "query": "{{`UPDATE products\nSET \n    product_name = '${components.textinput2.value}',\n    quantity = ${components.numberinput5.value},\n    status = '${components.dropdown5.value}',\n    price = ${components.numberinput6.value},\n    category = '${components.dropdown6.value}',\n    description = '${components.textarea3.value}'\nWHERE id = ${components.table1.selectedRow.id}\nAND is_active = true;`}}",
+    "events": [
+      {
+        "eventId": "onDataQuerySuccess",
+        "actionId": "show-alert",
+        "message": "Successfully updated product details.",
+        "alertType": "success"
+      },
+      {
+        "eventId": "onDataQuerySuccess",
+        "actionId": "close-modal",
+        "message": "Hello world!",
+        "alertType": "info",
+        "modal": "77c87ef4-529f-47fa-831a-05c96bb56518"
+      },
+      {
+        "eventId": "onDataQuerySuccess",
+        "actionId": "run-query",
+        "message": "Hello world!",
+        "alertType": "info",
+        "queryName": "getProducts",
+        "parameters": {}
+      },
+      {
+        "eventId": "onDataQueryFailure",
+        "actionId": "show-alert",
+        "message": "Failed to update product details! Please check and try again.",
+        "alertType": "warning"
+      }
+    ]
+  },
+  "dataSourceId": "914f5e1f-9abb-4508-8bd3-f8acd5827d36",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd",
+  "kind": "postgresql",
+  "dataSourceType": "sample"
+}

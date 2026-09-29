@@ -1,0 +1,14 @@
+{
+  "id": "5e1f6d32-8d0a-4af6-bd30-c445cbe7accc",
+  "name": "onDataQueryFailure",
+  "index": 3,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Unable to remove product. Please review and try again.",
+    "actionId": "show-alert",
+    "alertType": "warning"
+  },
+  "sourceId": "642cd05b-141b-4f62-89dd-81a584fbdd2e",
+  "target": "data_query",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd"
+}

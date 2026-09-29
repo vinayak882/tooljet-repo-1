@@ -1,0 +1,14 @@
+{
+  "id": "61d954c7-a993-4b93-8280-3c3c8ebf39c7",
+  "name": "onDataQuerySuccess",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "The product has been removed successfully.",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "642cd05b-141b-4f62-89dd-81a584fbdd2e",
+  "target": "data_query",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd"
+}

@@ -1,0 +1,100 @@
+{
+  "id": "e68b53d6-359e-4fbd-b7f7-f889e2d563b9",
+  "name": "textinput4",
+  "type": "TextInput",
+  "pageId": "a9957830-3575-4c5b-9f82-9843b6f28736",
+  "parent": "91c9e562-cce6-4fa0-a418-7e9b7c78b35f",
+  "properties": {
+    "value": {
+      "value": ""
+    },
+    "placeholder": {
+      "value": "Enter product name"
+    },
+    "visibility": {
+      "value": "{{true}}"
+    },
+    "disabledState": {
+      "value": "{{false}}"
+    },
+    "label": "",
+    "legacyInputSize": {
+      "value": "{{true}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    },
+    "showClearBtn": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textColor": {
+      "value": "#1B1F24",
+      "fxActive": false
+    },
+    "borderColor": {
+      "value": "#dadcde",
+      "fxActive": false
+    },
+    "errTextColor": {
+      "value": "#ff0000"
+    },
+    "borderRadius": {
+      "value": "{{5}}"
+    },
+    "backgroundColor": {
+      "value": "#fff"
+    },
+    "boxShadow": {
+      "value": "0px 0px 0px 0px #00000040"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "widthType": {
+      "value": "ofField"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {
+    "showOnDesktop": {
+      "value": "{{true}}"
+    },
+    "showOnMobile": {
+      "value": "{{false}}"
+    }
+  },
+  "validation": {
+    "regex": {
+      "value": ""
+    },
+    "minLength": {
+      "value": null
+    },
+    "maxLength": {
+      "value": null
+    },
+    "customRule": {
+      "value": null
+    }
+  },
+  "layouts": [
+    {
+      "id": "9023f0e0-c6c8-49ac-bf8a-208a2f658a61",
+      "type": "desktop",
+      "top": 79.99996376037598,
+      "left": 9,
+      "width": 32,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "e68b53d6-359e-4fbd-b7f7-f889e2d563b9",
+      "dimensionUnit": "count"
+    }
+  ]
+}
