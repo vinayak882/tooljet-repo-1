@@ -2733,6 +2733,37 @@
               "appVersionId": "4168e08f-47ef-4faa-b69e-18299480e723",
               "createdAt": "2026-09-29T07:33:38.952Z",
               "updatedAt": "2026-09-29T07:34:30.639Z"
+            },
+            {
+              "id": "78bf017e-1aa7-46c7-90dc-5a22c298f112",
+              "name": "restapi1",
+              "options": {
+                "method": "get",
+                "url": "",
+                "url_params": [],
+                "headers": [
+                  [
+                    "X-API-Key",
+                    "TEST_ONLY_NOT_A_REAL_SECRET_123456789"
+                  ],
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "cookies": [],
+                "body": [],
+                "json_body": null,
+                "body_toggle": false,
+                "retry_network_errors": null,
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "arrayValuesChanged": true
+              },
+              "dataSourceId": "db5bdbd2-2049-43fe-852f-ab63e01405d1",
+              "appVersionId": "4168e08f-47ef-4faa-b69e-18299480e723",
+              "createdAt": "2026-09-29T07:35:38.079Z",
+              "updatedAt": "2026-09-29T07:35:48.371Z"
             }
           ],
           "dataSources": [
@@ -2759,6 +2790,18 @@
               "scope": "global",
               "createdAt": "2026-09-28T14:31:39.537Z",
               "updatedAt": "2026-09-28T14:31:39.537Z"
+            },
+            {
+              "id": "db5bdbd2-2049-43fe-852f-ab63e01405d1",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": null,
+              "organizationId": "6609c6dc-a685-4a75-b038-853f836dad11",
+              "scope": "global",
+              "createdAt": "2026-09-28T14:31:39.524Z",
+              "updatedAt": "2026-09-28T14:31:39.524Z"
             }
           ],
           "dataQueryFolders": [],
@@ -2768,16 +2811,25 @@
               "parentId": null,
               "childId": "35dd58f9-a0e4-4c10-acdc-554f6759977c",
               "childType": "query",
-              "index": 0,
+              "index": 1,
               "createdAt": "2026-09-29T07:33:38.958Z",
               "updatedAt": "2026-09-29T07:33:38.958Z"
+            },
+            {
+              "id": "ee774222-0e84-48f6-9b9d-9cb2b01384ec",
+              "parentId": null,
+              "childId": "78bf017e-1aa7-46c7-90dc-5a22c298f112",
+              "childType": "query",
+              "index": 0,
+              "createdAt": "2026-09-29T07:35:38.087Z",
+              "updatedAt": "2026-09-29T07:35:38.087Z"
             },
             {
               "id": "32e47f17-b257-4c1e-9ba2-65b414b74e90",
               "parentId": null,
               "childId": "b3a4dcc3-a30b-406c-9bd0-a39e7034c72b",
               "childType": "query",
-              "index": 2,
+              "index": 3,
               "createdAt": "2026-09-28T18:17:50.108Z",
               "updatedAt": "2026-09-28T18:17:50.108Z"
             },
@@ -2786,7 +2838,7 @@
               "parentId": null,
               "childId": "4931525e-7b67-49bf-9137-86aa83049571",
               "childType": "query",
-              "index": 1,
+              "index": 2,
               "createdAt": "2026-09-28T18:17:50.117Z",
               "updatedAt": "2026-09-28T18:17:50.117Z"
             }
@@ -2964,12 +3016,28 @@
           ],
           "dataSourceOptions": [
             {
-              "id": "9ab6ecfa-6004-45d0-b28c-93c9606b56b9",
-              "dataSourceId": "86bd4fcf-24f4-4b12-aaff-cbcb96cfe273",
+              "id": "7686cf1f-e015-45c2-a58d-25b9cb88de1d",
+              "dataSourceId": "db5bdbd2-2049-43fe-852f-ab63e01405d1",
               "environmentId": "3c51b9d8-58a9-4383-8c7b-f28bfed4701f",
               "options": null,
-              "createdAt": "2026-09-28T14:31:39.540Z",
-              "updatedAt": "2026-09-28T14:31:39.540Z"
+              "createdAt": "2026-09-28T14:31:39.534Z",
+              "updatedAt": "2026-09-28T14:31:39.534Z"
+            },
+            {
+              "id": "5e672c39-63b7-4054-b879-d1f3a1d2bf8f",
+              "dataSourceId": "db5bdbd2-2049-43fe-852f-ab63e01405d1",
+              "environmentId": "38bcf224-aec6-45e8-9c79-e17cc77fd133",
+              "options": null,
+              "createdAt": "2026-09-28T14:31:39.534Z",
+              "updatedAt": "2026-09-28T14:31:39.534Z"
+            },
+            {
+              "id": "25368d49-e193-4f13-8b78-751b4c58cb3d",
+              "dataSourceId": "db5bdbd2-2049-43fe-852f-ab63e01405d1",
+              "environmentId": "30ca2633-5e57-4088-8916-8b3b12ea19e7",
+              "options": null,
+              "createdAt": "2026-09-28T14:31:39.534Z",
+              "updatedAt": "2026-09-28T14:31:39.534Z"
             },
             {
               "id": "f3791b45-fb8d-47cf-831f-c0f099e6d54e",
@@ -2988,6 +3056,14 @@
               "updatedAt": "2026-09-28T14:31:39.540Z"
             },
             {
+              "id": "9ab6ecfa-6004-45d0-b28c-93c9606b56b9",
+              "dataSourceId": "86bd4fcf-24f4-4b12-aaff-cbcb96cfe273",
+              "environmentId": "3c51b9d8-58a9-4383-8c7b-f28bfed4701f",
+              "options": null,
+              "createdAt": "2026-09-28T14:31:39.540Z",
+              "updatedAt": "2026-09-28T14:31:39.540Z"
+            },
+            {
               "id": "41bcfb38-8642-4b8b-917b-9273828a4f48",
               "dataSourceId": "add18b00-20cc-4059-9c21-086c7e251a8d",
               "environmentId": "3c51b9d8-58a9-4383-8c7b-f28bfed4701f",
@@ -2996,17 +3072,17 @@
               "updatedAt": "2026-09-28T14:31:39.552Z"
             },
             {
-              "id": "06472fee-19db-4ee9-bc5c-fe6301ed92aa",
+              "id": "5ccf645b-4d3e-4479-b97f-430fb51cbac1",
               "dataSourceId": "add18b00-20cc-4059-9c21-086c7e251a8d",
-              "environmentId": "30ca2633-5e57-4088-8916-8b3b12ea19e7",
+              "environmentId": "38bcf224-aec6-45e8-9c79-e17cc77fd133",
               "options": null,
               "createdAt": "2026-09-28T14:31:39.552Z",
               "updatedAt": "2026-09-28T14:31:39.552Z"
             },
             {
-              "id": "5ccf645b-4d3e-4479-b97f-430fb51cbac1",
+              "id": "06472fee-19db-4ee9-bc5c-fe6301ed92aa",
               "dataSourceId": "add18b00-20cc-4059-9c21-086c7e251a8d",
-              "environmentId": "38bcf224-aec6-45e8-9c79-e17cc77fd133",
+              "environmentId": "30ca2633-5e57-4088-8916-8b3b12ea19e7",
               "options": null,
               "createdAt": "2026-09-28T14:31:39.552Z",
               "updatedAt": "2026-09-28T14:31:39.552Z"
