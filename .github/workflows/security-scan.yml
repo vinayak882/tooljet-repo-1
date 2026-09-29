@@ -1,0 +1,89 @@
+name: Security scan
+
+# Runs when a PR is opened, and again whenever new commits are pushed to it.
+# Only the ToolJet apps the PR touches are scanned.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "apps/**"
+      - ".gitleaks.toml"
+      - "scripts/tooljet_security_check.py"
+      - ".github/workflows/security-scan.yml"
+
+permissions:
+  contents: read
+  security-events: write
+
+env:
+  APPS_DIR: apps
+  BASE_SHA: ${{ github.event.pull_request.base.sha }}
+  HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+
+jobs:
+  gitleaks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      # Scans only the commits added by this PR, in the apps folder.
+      - name: Run gitleaks on PR commits
+        run: |
+          docker run --rm -v "$PWD:/repo" -w /repo zricethezav/gitleaks:v8.21.2 \
+            git --config .gitleaks.toml --redact \
+            --log-opts="$BASE_SHA..$HEAD_SHA -- $APPS_DIR" \
+            --report-format sarif --report-path gitleaks.sarif --exit-code 1 .
+
+      # Inline PR annotations; works without GitHub Advanced Security.
+      - name: Annotate PR
+        if: failure()
+        run: |
+          python3 - <<'EOF'
+          import json
+          for r in json.load(open("gitleaks.sarif"))["runs"][0]["results"]:
+              loc = r["locations"][0]["physicalLocation"]
+              print(f"::error file={loc['artifactLocation']['uri']},"
+                    f"line={loc['region']['startLine']},title={r['ruleId']}::{r['message']['text']}")
+          EOF
+
+      # Shows findings under Security > Code scanning and on the PR.
+      # Private repos need GitHub Code Security for this step; delete it if you don't have it.
+      - name: Upload results
+        if: always() && hashFiles('gitleaks.sarif') != ''
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: gitleaks.sarif
+          category: gitleaks
+
+  tooljet-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Find ToolJet apps changed in this PR
+        id: apps
+        run: |
+          git diff --name-only -z "$BASE_SHA...$HEAD_SHA" -- "$APPS_DIR/" \
+            | tr '\0' '\n' | cut -d/ -f1,2 | sort -u > changed-apps.txt
+          echo "Changed apps:"; cat changed-apps.txt
+          echo "count=$(grep -c . changed-apps.txt || true)" >> "$GITHUB_OUTPUT"
+
+      - name: Check changed apps for SQL injection and client-side access control
+        if: steps.apps.outputs.count != '0'
+        run: |
+          mapfile -t apps < changed-apps.txt
+          python3 scripts/tooljet_security_check.py "${apps[@]}" --github --sarif tooljet.sarif
+
+      # Same licensing note as above for private repos.
+      - name: Upload results
+        if: always() && hashFiles('tooljet.sarif') != ''
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: tooljet.sarif
+          category: tooljet-security-check

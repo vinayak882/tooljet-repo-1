@@ -1,0 +1,31 @@
+# Secret scanning rules for ToolJet git-sync exports.
+# ToolJet stores query code and REST headers as escaped strings inside JSON,
+# so generic scanners miss them. These rules target that layout.
+
+title = "ToolJet secret scanning"
+
+[extend]
+useDefault = true
+
+# REST API query headers: ["Authorization", "Bearer <token>"], ["X-API-Key", "<key>"]
+[[rules]]
+id = "tooljet-rest-header-secret"
+description = "Hardcoded credential in a ToolJet REST API query header"
+regex = '''(?i)"(?:authorization|proxy-authorization|x-api-key|api-key|apikey|x-auth-token|x-access-token|access-token)"\s*,\s*"(?:bearer\s+|basic\s+|token\s+)?([^"{}\s]{12,})"'''
+secretGroup = 1
+keywords = ["authorization", "api-key", "apikey", "auth-token", "access-token"]
+paths = ['''(^|/)queries/[^/]+\.json$''']
+
+# RunJS / RunPy code: const apiKey = "..."  (quotes are JSON-escaped as \")
+[[rules]]
+id = "tooljet-code-hardcoded-secret"
+description = "Hardcoded secret assigned in ToolJet RunJS/RunPy query code"
+regex = '''(?i)[a-z0-9_]*(?:api[_-]?key|secret|token|passw(?:or)?d|pwd|credential|private[_-]?key)[a-z0-9_]*\s*[:=]\s*\\?["'`]([^"'`\\{}\s]{12,})\\?["'`]'''
+secretGroup = 1
+keywords = ["key", "secret", "token", "pass", "pwd", "credential"]
+paths = ['''(^|/)queries/[^/]+\.json$''']
+
+[allowlist]
+description = "ToolJet references resolved at runtime are not secrets"
+regexTarget = "match"
+regexes = ['''\{\{\s*(?:secrets|constants|globals\.environment)\.''']
