@@ -7,11 +7,14 @@
   "properties": {
     "rawHtml": {
       "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);display:grid;grid-template-columns:repeat(3,1fr);gap:16px\">{{(function(){ var d = queries.q_bank_holidays.data || {}; var today = new Date().toISOString().slice(0,10); var evs = function(k){ return (d[k] || {}).events || []; }; var next = function(k){ return evs(k).filter(function(e){ return e.date >= today; }).slice(0,4); }; var fmt = function(s){ return new Date(s + 'T00:00:00').toLocaleDateString('en-GB', {weekday:'short', day:'2-digit', month:'short', year:'numeric'} ); }; var row = function(e){ return '<div style=\"display:flex;justify-content:space-between;gap:12px;padding:5px 0;border-top:1px solid var(--cc-weak-border);font-size:13px\"><span style=\"color:var(--cc-primary-text)\">' + e.title + '</span><span style=\"font-weight:600;color:var(--cc-primary-brand);white-space:nowrap\">' + fmt(e.date) + '</span></div>'; }; var card = function(h, sub, list){ return '<div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:16px\"><div style=\"font-size:14px;font-weight:700;color:var(--cc-primary-text)\">' + h + '</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-bottom:8px\">' + sub + '</div>' + (list.length ? list.map(row).join('') : '<div style=\"font-size:13px;color:var(--cc-placeholder-text)\">Loading holidays…</div>') + '</div>'; }; var dates = evs('scotland').concat(evs('england-and-wales')).map(function(e){ return e.date; }); var hires = queries.q_hires.data || []; var clash = hires.filter(function(h){ return dates.indexOf(String(h.start_date).slice(0,10)) >= 0; }); var ok = clash.length === 0; var check = '<div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:16px\"><div style=\"font-size:14px;font-weight:700;color:var(--cc-primary-text)\">Start-date check</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-bottom:8px\">Starters compared with both calendars</div><div style=\"font-size:28px;font-weight:700;color:' + (ok ? 'var(--cc-success-systemStatus)' : 'var(--cc-error-systemStatus)') + '\">' + (ok ? 'No clashes' : clash.length + ' clash' + (clash.length > 1 ? 'es' : '')) + '</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:6px\">' + (ok ? hires.length + ' upcoming start dates avoid bank holidays' : clash.map(function(h){ return h.full_name; }).join(', ') + ' start on a bank holiday') + '</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-top:12px\">Live from the GOV.UK bank holidays data source</div></div>'; return card('Scotland', 'Glasgow HQ', next('scotland')) + card('England and Wales', 'London office', next('england-and-wales')) + check; })()}}</div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {},
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [

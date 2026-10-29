@@ -7,11 +7,14 @@
   "properties": {
     "rawHtml": {
       "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">People · IT · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">Hiring pipeline and access bundles</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Where starters are in onboarding, and the ToolJet group each department is granted on day one</div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {},
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [
