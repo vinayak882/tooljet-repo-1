@@ -148,15 +148,18 @@
     },
     "columnData": {
       "value": "{{[{name: 'email', key: 'email', id: '1'}, {name: 'Full name', key: 'name', id: '2', isEditable: true}]}}"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {
     "contentWrap": {
       "value": true
     }
   },
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [

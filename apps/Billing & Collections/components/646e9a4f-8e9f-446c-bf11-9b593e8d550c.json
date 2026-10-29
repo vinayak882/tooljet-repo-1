@@ -7,11 +7,14 @@
   "properties": {
     "rawHtml": {
       "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface)\"><div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:8px 20px\"><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px\"><span style=\"font-weight:600;color:var(--cc-warning-systemStatus)\">1–30 days</span><span style=\"color:var(--cc-primary-text)\">Automated reminder and credit controller call</span><span style=\"color:var(--cc-placeholder-text)\">Finance group</span></div><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px\"><span style=\"font-weight:600;color:var(--cc-warning-systemStatus)\">31–60 days</span><span style=\"color:var(--cc-primary-text)\">CSM looped in via Customer Health 360</span><span style=\"color:var(--cc-placeholder-text)\">Finance + Customer Success</span></div><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;font-size:14px\"><span style=\"font-weight:600;color:var(--cc-error-systemStatus)\">60+ days</span><span style=\"color:var(--cc-primary-text)\">CFO review, possible service suspension notice</span><span style=\"color:var(--cc-placeholder-text)\">Executive Leadership</span></div></div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {},
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [

@@ -7,11 +7,14 @@
   "properties": {
     "rawHtml": {
       "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);display:grid;grid-template-columns:repeat(4,1fr);gap:16px\">{{(function(){ var d = (queries.q_inv.data || []).filter(function(r){ return r.status !== 'Paid'; }); var gbp = d.reduce(function(s,r){ return s + (r.amount_gbp || 0); }, 0); var fx = (queries.q_fx_rates.data || {}).rates || {}; var upd = (queries.q_fx_rates.data || {}).time_last_update_utc || ''; var conv = function(code, sym){ return fx[code] ? sym + Math.round(gbp * fx[code] / 1000).toLocaleString('en-GB') + 'k' : '—'; }; var rate = function(code){ return fx[code] ? '£1 = ' + fx[code].toFixed(4) + ' ' + code : 'Rate unavailable'; }; var tile = function(l,v,c,col){ return '<div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:16px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">' + l + '</div><div style=\"font-size:28px;font-weight:700;margin-top:4px;color:' + col + '\">' + v + '</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-top:4px\">' + c + '</div></div>'; }; return tile('Outstanding in USD', conv('USD','$'), rate('USD') + ' · North America', 'var(--cc-primary-text)') + tile('Outstanding in EUR', conv('EUR','€'), rate('EUR') + ' · EMEA', 'var(--cc-primary-text)') + tile('Outstanding in AUD', conv('AUD','A$'), rate('AUD') + ' · APAC', 'var(--cc-primary-text)') + tile('FX rates as of', upd ? upd.slice(5,16) : 'Loading…', 'Live from the ExchangeRate-API data source', 'var(--cc-primary-brand)'); })()}}</div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {},
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [
