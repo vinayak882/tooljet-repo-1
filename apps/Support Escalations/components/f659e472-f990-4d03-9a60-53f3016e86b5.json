@@ -1,0 +1,62 @@
+{
+  "id": "f659e472-f990-4d03-9a60-53f3016e86b5",
+  "name": "severityChart",
+  "type": "Chart",
+  "pageId": "87eebad5-b4dc-47e1-9e6e-c0c0c588e65e",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = (queries.q_esc.data || []).filter(function(r){ return r.status !== 'Resolved'; }); var sv = ['P1','P2','P3','P4']; var y = sv.map(function(s){ return d.filter(function(r){ return r.severity === s; }).length; }); return {data:[{type:'bar', x:sv, y:y, marker:{color:['#B91C1C','#B45309','#00796B','#5B6478'], line:{width:0} }, text:y.map(function(v){ return String(v); }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{x}<br>%{y} open<extra></extra>'}], layout:{bargap:0.45, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{showgrid:false, showline:false}, yaxis:{rangemode:'tozero', gridcolor:'#EEF2F5', zeroline:false, showline:false, dtick:1} } }; })()}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "a70b22f9-e453-4876-bdfe-1a1468627b54",
+      "type": "desktop",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "f659e472-f990-4d03-9a60-53f3016e86b5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "677e654b-21a6-49f9-8b13-8f6fc6bb8b81",
+      "type": "mobile",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "f659e472-f990-4d03-9a60-53f3016e86b5",
+      "dimensionUnit": "count"
+    }
+  ]
+}

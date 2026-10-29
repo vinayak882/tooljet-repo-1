@@ -1,0 +1,62 @@
+{
+  "id": "747e466e-cf1f-4c90-88db-f5d33b7d1fe6",
+  "name": "areaChart",
+  "type": "Chart",
+  "pageId": "87eebad5-b4dc-47e1-9e6e-c0c0c588e65e",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = queries.q_esc.data || []; var ar = d.map(function(r){ return r.product_area; }).filter(function(v,i,a){ return v && a.indexOf(v) === i; }); var rows = ar.map(function(a){ return {n:a, v:d.filter(function(r){ return r.product_area === a; }).length}; }).sort(function(a,b){ return a.v - b.v; }); var mx = rows.reduce(function(m,r){ return Math.max(m, r.v); }, 0); return {data:[{type:'bar', orientation:'h', y:rows.map(function(r){ return r.n; }), x:rows.map(function(r){ return r.v; }), marker:{color:'#00796B', line:{width:0} }, text:rows.map(function(r){ return String(r.v); }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{y}<br>%{x} escalations<extra></extra>'}], layout:{bargap:0.35, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{range:[0, mx * 1.2], gridcolor:'#EEF2F5', zeroline:false, showline:false, dtick:1, automargin:true}, yaxis:{showgrid:false, showline:false, automargin:true, ticksuffix:'  '} } }; })()}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "d2027ab9-bc53-434c-a685-641ffdf1ae5a",
+      "type": "desktop",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "747e466e-cf1f-4c90-88db-f5d33b7d1fe6",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c1c50cf1-5259-450d-9417-dc168222f17a",
+      "type": "mobile",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "747e466e-cf1f-4c90-88db-f5d33b7d1fe6",
+      "dimensionUnit": "count"
+    }
+  ]
+}

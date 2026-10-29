@@ -1,0 +1,50 @@
+{
+  "id": "693a025e-01cf-408e-91ef-3513b36fd047",
+  "name": "areaHeading",
+  "type": "Text",
+  "pageId": "87eebad5-b4dc-47e1-9e6e-c0c0c588e65e",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Escalations by product area"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1ec49d26-2327-452f-9648-9fd731994ed8",
+      "type": "desktop",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "693a025e-01cf-408e-91ef-3513b36fd047",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "9ffcc4ae-aca0-4e60-ac29-928956087605",
+      "type": "mobile",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "693a025e-01cf-408e-91ef-3513b36fd047",
+      "dimensionUnit": "count"
+    }
+  ]
+}

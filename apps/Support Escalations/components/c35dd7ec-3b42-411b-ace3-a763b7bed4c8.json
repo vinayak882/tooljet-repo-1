@@ -1,0 +1,43 @@
+{
+  "id": "c35dd7ec-3b42-411b-ace3-a763b7bed4c8",
+  "name": "slaHeader",
+  "type": "Html",
+  "pageId": "87eebad5-b4dc-47e1-9e6e-c0c0c588e65e",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">Customer Support · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">SLA performance</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Open load by severity and the product areas generating escalations</div></div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "05e03841-dfa1-43ed-8fe4-5457113f24d4",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c35dd7ec-3b42-411b-ace3-a763b7bed4c8",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b8749892-7d24-45a7-88aa-9522df2f34b5",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c35dd7ec-3b42-411b-ace3-a763b7bed4c8",
+      "dimensionUnit": "count"
+    }
+  ]
+}

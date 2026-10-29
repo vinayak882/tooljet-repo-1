@@ -1,0 +1,50 @@
+{
+  "id": "d27fe12e-7ba0-4bb0-aef8-9633025440b5",
+  "name": "severityHeading",
+  "type": "Text",
+  "pageId": "87eebad5-b4dc-47e1-9e6e-c0c0c588e65e",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Open escalations by severity"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1ea2e859-60fe-4771-93dc-edb2926910a3",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d27fe12e-7ba0-4bb0-aef8-9633025440b5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5bd79516-22b9-4328-a762-87536db88761",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d27fe12e-7ba0-4bb0-aef8-9633025440b5",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "db86b7af-1040-4b63-a271-62f28e6a91c0",
+  "name": "slaPolicy",
+  "type": "Html",
+  "pageId": "87eebad5-b4dc-47e1-9e6e-c0c0c588e65e",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface)\"><div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:8px 20px\"><div style=\"display:grid;grid-template-columns:120px 1fr 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:12px;font-weight:600;color:var(--cc-placeholder-text);text-transform:uppercase;letter-spacing:.05em\"><span>Severity</span><span>First response</span><span>Workaround</span><span>Escalation path</span></div><div style=\"display:grid;grid-template-columns:120px 1fr 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px;color:var(--cc-primary-text)\"><span style=\"font-weight:700;color:var(--cc-error-systemStatus)\">P1</span><span>1 hour, 24×7</span><span>4 hours</span><span>Engineering on-call and CS director</span></div><div style=\"display:grid;grid-template-columns:120px 1fr 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px;color:var(--cc-primary-text)\"><span style=\"font-weight:700;color:var(--cc-warning-systemStatus)\">P2</span><span>4 business hours</span><span>1 business day</span><span>Support team lead</span></div><div style=\"display:grid;grid-template-columns:120px 1fr 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px;color:var(--cc-primary-text)\"><span style=\"font-weight:700;color:var(--cc-primary-brand)\">P3</span><span>1 business day</span><span>5 business days</span><span>Assigned engineer</span></div><div style=\"display:grid;grid-template-columns:120px 1fr 1fr 1fr;gap:16px;padding:12px 0;font-size:14px;color:var(--cc-primary-text)\"><span style=\"font-weight:700;color:var(--cc-placeholder-text)\">P4</span><span>2 business days</span><span>Next scheduled release</span><span>Product backlog</span></div></div></div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "7fb07d25-aed3-4e13-be5c-7c0f24fad59f",
+      "type": "desktop",
+      "top": 560,
+      "left": 2,
+      "width": 39,
+      "height": 250,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "db86b7af-1040-4b63-a271-62f28e6a91c0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "7018d8ef-340c-43b8-a920-0469784b0682",
+      "type": "mobile",
+      "top": 560,
+      "left": 2,
+      "width": 39,
+      "height": 250,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "db86b7af-1040-4b63-a271-62f28e6a91c0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

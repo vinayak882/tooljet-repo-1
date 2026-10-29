@@ -1,0 +1,14 @@
+{
+  "id": "0a9151e9-7a17-4291-bdf1-3a5a83ac1fbd",
+  "name": "Confirm q_resolve",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Escalation marked resolved",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "a5d3ca2b-7fdc-4be0-ba35-256ce407db5b",
+  "target": "data_query",
+  "appVersionId": "5188f4a9-56d5-4056-b1da-38da541c167f"
+}
