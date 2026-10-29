@@ -1,0 +1,21 @@
+{
+  "id": "64cfe518-8270-4fde-bd02-47853c43ea36",
+  "name": "AR ledger",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconReceipt",
+  "autoComputeLayout": true,
+  "appVersionId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9",
+  "targetCorelationId": null
+}

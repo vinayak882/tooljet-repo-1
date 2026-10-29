@@ -1,0 +1,50 @@
+{
+  "id": "11f4b0fb-d4b0-406b-89d2-b07aa58986a4",
+  "name": "agingHeading",
+  "type": "Text",
+  "pageId": "1c97fa6a-b661-4a3e-856e-bf53f42eb89f",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Unpaid balance by age"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "58965621-2bd2-4e2e-968d-3e4eef10406f",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "11f4b0fb-d4b0-406b-89d2-b07aa58986a4",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5521bc5f-f851-43dc-aada-9b9b712304c6",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "11f4b0fb-d4b0-406b-89d2-b07aa58986a4",
+      "dimensionUnit": "count"
+    }
+  ]
+}

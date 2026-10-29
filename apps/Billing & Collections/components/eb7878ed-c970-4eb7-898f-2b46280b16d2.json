@@ -1,0 +1,43 @@
+{
+  "id": "eb7878ed-c970-4eb7-898f-2b46280b16d2",
+  "name": "ledgerKpis",
+  "type": "Html",
+  "pageId": "64cfe518-8270-4fde-bd02-47853c43ea36",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);display:grid;grid-template-columns:repeat(4,1fr);gap:16px\">{{(function(){ var d = queries.q_inv.data || []; var sum = function(a){ return a.reduce(function(s,r){ return s + (r.amount_gbp || 0); }, 0); }; var k = function(v){ return '£' + Math.round(v/1000) + 'k'; }; var open = d.filter(function(r){ return r.status !== 'Paid'; }); var od = d.filter(function(r){ return r.status === 'Overdue'; }); var oldest = od.reduce(function(m,r){ return Math.max(m, r.days_overdue || 0); }, 0); var paid = d.filter(function(r){ return r.status === 'Paid'; }); var tile = function(l,v,c,col){ return '<div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:16px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">' + l + '</div><div style=\"font-size:28px;font-weight:700;margin-top:4px;color:' + col + '\">' + v + '</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-top:4px\">' + c + '</div></div>'; }; return tile('Outstanding AR', k(sum(open)), open.length + ' open invoices', 'var(--cc-primary-text)') + tile('Overdue', k(sum(od)), od.length + ' invoices past due date', od.length ? 'var(--cc-error-systemStatus)' : 'var(--cc-primary-text)') + tile('Oldest overdue', oldest + ' days', 'Escalate to account owner over 60', oldest > 60 ? 'var(--cc-error-systemStatus)' : 'var(--cc-primary-text)') + tile('Collected', k(sum(paid)), paid.length + ' invoices paid', 'var(--cc-success-systemStatus)'); })()}}</div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "90d08f48-9c35-4d09-989d-07115aa81e8b",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "eb7878ed-c970-4eb7-898f-2b46280b16d2",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "76fca112-23cc-4a16-966f-284f98cde520",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "eb7878ed-c970-4eb7-898f-2b46280b16d2",
+      "dimensionUnit": "count"
+    }
+  ]
+}

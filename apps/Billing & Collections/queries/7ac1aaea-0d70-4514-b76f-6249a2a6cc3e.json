@@ -1,0 +1,16 @@
+{
+  "id": "7ac1aaea-0d70-4514-b76f-6249a2a6cc3e",
+  "name": "q_fx_rates",
+  "options": {
+    "method": "get",
+    "url": "/latest/{{constants.FX_BASE_CURRENCY}}",
+    "url_params": [],
+    "headers": [],
+    "body": [],
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "ffef1ee4-a3db-41eb-a1ef-e23fa1e351a3",
+  "appVersionId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

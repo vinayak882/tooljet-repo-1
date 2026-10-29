@@ -1,0 +1,43 @@
+{
+  "id": "ac79ebe6-9d4e-4947-9c04-c2e61e7158de",
+  "name": "ledgerHeader",
+  "type": "Html",
+  "pageId": "64cfe518-8270-4fde-bd02-47853c43ea36",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">Finance · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">Accounts receivable</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Subscription invoices, collection status and overdue exposure, most overdue first</div></div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "18ff10ec-e0b9-416e-8617-18be6be2ea5f",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ac79ebe6-9d4e-4947-9c04-c2e61e7158de",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "98b61d89-c50d-40cf-95ce-a5c89f28a166",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "ac79ebe6-9d4e-4947-9c04-c2e61e7158de",
+      "dimensionUnit": "count"
+    }
+  ]
+}

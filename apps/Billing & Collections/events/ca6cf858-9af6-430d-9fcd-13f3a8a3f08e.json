@@ -1,0 +1,15 @@
+{
+  "id": "ca6cf858-9af6-430d-9fcd-13f3a8a3f08e",
+  "name": "onClick → run-query",
+  "index": 0,
+  "event": {
+    "ref": "actions::markpaid",
+    "eventId": "onClick",
+    "queryId": "359dea66-20eb-427f-86dd-d3d2a2110430",
+    "actionId": "run-query",
+    "queryName": "q_mark_paid"
+  },
+  "sourceId": "c8b5de90-5c0a-4884-b637-7efe6142fb0a",
+  "target": "table_column",
+  "appVersionId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9"
+}

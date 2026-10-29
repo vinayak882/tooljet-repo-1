@@ -1,0 +1,24 @@
+{
+  "id": "b849333a-29af-40ef-bdf0-67bc1e7f4a77",
+  "name": "q_inv",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 500,
+      "offset": 0,
+      "order_filters": {
+        "sort-od": {
+          "id": "sort-od",
+          "column": "days_overdue",
+          "order": "desc"
+        }
+      }
+    },
+    "runOnPageLoad": true,
+    "table_id": "8399b8e7-33d9-4ce9-8b59-a84bd528eec7"
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}
