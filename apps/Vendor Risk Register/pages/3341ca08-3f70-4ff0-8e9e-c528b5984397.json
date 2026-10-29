@@ -1,0 +1,21 @@
+{
+  "id": "3341ca08-3f70-4ff0-8e9e-c528b5984397",
+  "name": "Vendor register",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconShieldCheck",
+  "autoComputeLayout": true,
+  "appVersionId": "4432cfec-1468-4f6a-8e36-e6de2dcc4481",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "6803e686-e87a-436b-a2f8-d5f07e2349c5",
+  "targetCorelationId": null
+}

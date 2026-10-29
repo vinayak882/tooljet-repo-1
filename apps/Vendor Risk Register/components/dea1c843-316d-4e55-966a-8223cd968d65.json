@@ -1,0 +1,50 @@
+{
+  "id": "dea1c843-316d-4e55-966a-8223cd968d65",
+  "name": "accessHeading",
+  "type": "Text",
+  "pageId": "62bae4de-c148-4bd8-9332-5201e3b1f628",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Vendors by data access"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "9148a0a4-b03d-4694-982c-c50ec765b362",
+      "type": "desktop",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "dea1c843-316d-4e55-966a-8223cd968d65",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3b46f28e-941a-47db-ba91-49b870663d4b",
+      "type": "mobile",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "dea1c843-316d-4e55-966a-8223cd968d65",
+      "dimensionUnit": "count"
+    }
+  ]
+}

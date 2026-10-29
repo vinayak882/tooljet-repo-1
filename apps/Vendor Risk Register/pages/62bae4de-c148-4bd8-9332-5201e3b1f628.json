@@ -1,0 +1,33 @@
+{
+  "id": "62bae4de-c148-4bd8-9332-5201e3b1f628",
+  "name": "Risk overview",
+  "handle": "risk-overview",
+  "index": 999,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconChartPie",
+  "autoComputeLayout": true,
+  "appVersionId": "4432cfec-1468-4f6a-8e36-e6de2dcc4481",
+  "pageGroupIndex": 2,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "pageFooter": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "appId": "",
+  "targetCorelationId": null
+}
