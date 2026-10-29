@@ -111,10 +111,17 @@
       "updatedAt": "2026-10-29T09:15:53.271Z"
     }
   },
-  "pageSettings": null,
+  "pageSettings": {
+    "properties": {
+      "disableMenu": {
+        "value": "{{false}}",
+        "fxActive": false
+      }
+    }
+  },
   "showViewerNavigation": true,
   "homePageId": "3341ca08-3f70-4ff0-8e9e-c528b5984397",
-  "versionType": "version",
+  "versionType": "branch",
   "appId": "6803e686-e87a-436b-a2f8-d5f07e2349c5",
   "promotedFrom": null,
   "status": "DRAFT",
@@ -123,5 +130,5 @@
   "releasedAt": null,
   "isStub": false,
   "sourceTag": null,
-  "isSynced": false
+  "isSynced": true
 }
