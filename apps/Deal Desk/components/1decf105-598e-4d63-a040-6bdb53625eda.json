@@ -15,7 +15,7 @@
       "value": "{{(function(){ var d = queries.q_deals.data || []; var reps = d.map(function(r){ return r.rep_email; }).filter(function(v,i,a){ return v && a.indexOf(v) === i; }); var nm = function(e){ return e.split('@')[0].split('.').map(function(s){ return s.charAt(0).toUpperCase() + s.slice(1); }).join(' '); }; var rows = reps.map(function(e){ var rs = d.filter(function(r){ return r.rep_email === e; }); return {n:nm(e), v:Math.round(rs.reduce(function(s,r){ return s + (r.discount_pct || 0); }, 0) / rs.length * 10) / 10}; }).sort(function(a,b){ return a.v - b.v; }); var mx = rows.reduce(function(m,r){ return Math.max(m, r.v); }, 0); return {data:[{type:'bar', orientation:'h', y:rows.map(function(r){ return r.n; }), x:rows.map(function(r){ return r.v; }), marker:{color:rows.map(function(r){ return r.v > 15 ? '#B45309' : '#00796B'; }), line:{width:0} }, text:rows.map(function(r){ return r.v + '%'; }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{y}<br>%{x}%<extra></extra>'}], layout:{bargap:0.4, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{range:[0, mx * 1.25], gridcolor:'#EEF2F5', zeroline:false, showline:false, ticksuffix:'%', automargin:true}, yaxis:{showgrid:false, showline:false, automargin:true, ticksuffix:'  '} } }; })()}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {
     "padding": {
       "value": 16
@@ -30,7 +30,7 @@
       "value": 12
     }
   },
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [

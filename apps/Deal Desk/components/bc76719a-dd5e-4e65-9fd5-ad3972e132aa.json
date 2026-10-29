@@ -15,7 +15,7 @@
       "value": "{{(function(){ var d = queries.q_deals.data || []; var st = ['Pending','Approved','Rejected']; var y = st.map(function(s){ return d.filter(function(r){ return r.status === s; }).reduce(function(a,r){ return a + (r.acv_gbp || 0); }, 0); }); return {data:[{type:'bar', x:st, y:y, marker:{color:['#B45309','#00796B','#B91C1C'], line:{width:0} }, text:y.map(function(v){ return '£' + Math.round(v/1000) + 'k'; }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{x}<br>£%{y:,.0f}<extra></extra>'}], layout:{bargap:0.45, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{showgrid:false, showline:false}, yaxis:{rangemode:'tozero', gridcolor:'#EEF2F5', zeroline:false, showline:false, tickprefix:'£'} } }; })()}}"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {
     "padding": {
       "value": 16
@@ -30,7 +30,7 @@
       "value": 12
     }
   },
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [

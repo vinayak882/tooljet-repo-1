@@ -7,9 +7,15 @@
   "properties": {
     "text": {
       "value": "Discount approval policy"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {
     "textSize": {
       "value": 16
@@ -18,7 +24,7 @@
       "value": "bold"
     }
   },
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [
