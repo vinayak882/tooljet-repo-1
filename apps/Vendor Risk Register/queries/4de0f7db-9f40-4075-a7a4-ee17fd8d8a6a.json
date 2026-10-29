@@ -1,0 +1,24 @@
+{
+  "id": "4de0f7db-9f40-4075-a7a4-ee17fd8d8a6a",
+  "name": "q_vendors",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 500,
+      "offset": 0,
+      "order_filters": {
+        "sort-nr": {
+          "id": "sort-nr",
+          "column": "next_review",
+          "order": "asc"
+        }
+      }
+    },
+    "runOnPageLoad": true,
+    "table_id": "044c10a4-3014-44bb-9a01-24dcda0871fd"
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "4432cfec-1468-4f6a-8e36-e6de2dcc4481",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

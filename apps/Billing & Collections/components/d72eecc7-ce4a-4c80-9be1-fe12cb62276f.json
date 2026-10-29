@@ -1,0 +1,62 @@
+{
+  "id": "d72eecc7-ce4a-4c80-9be1-fe12cb62276f",
+  "name": "customerChart",
+  "type": "Chart",
+  "pageId": "1c97fa6a-b661-4a3e-856e-bf53f42eb89f",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = (queries.q_inv.data || []).filter(function(r){ return r.status !== 'Paid'; }); var ac = d.map(function(r){ return r.account_name; }).filter(function(v,i,a){ return v && a.indexOf(v) === i; }); var rows = ac.map(function(a){ var rs = d.filter(function(r){ return r.account_name === a; }); return {n:a, v:rs.reduce(function(s,r){ return s + (r.amount_gbp || 0); }, 0), od:rs.some(function(r){ return r.status === 'Overdue'; })}; }).sort(function(a,b){ return a.v - b.v; }); var mx = rows.reduce(function(m,r){ return Math.max(m, r.v); }, 0); return {data:[{type:'bar', orientation:'h', y:rows.map(function(r){ return r.n; }), x:rows.map(function(r){ return r.v; }), marker:{color:rows.map(function(r){ return r.od ? '#B91C1C' : '#00796B'; }), line:{width:0} }, text:rows.map(function(r){ return '£' + Math.round(r.v/1000) + 'k'; }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{y}<br>£%{x:,.0f}<extra></extra>'}], layout:{bargap:0.35, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{range:[0, mx * 1.3], gridcolor:'#EEF2F5', zeroline:false, showline:false, tickprefix:'£', automargin:true}, yaxis:{showgrid:false, showline:false, automargin:true, ticksuffix:'  '} } }; })()}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "e0beefb1-92a9-4930-8b90-c15607b74b92",
+      "type": "desktop",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d72eecc7-ce4a-4c80-9be1-fe12cb62276f",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "47a4f8dc-efc1-492e-ba76-36d698e397f6",
+      "type": "mobile",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d72eecc7-ce4a-4c80-9be1-fe12cb62276f",
+      "dimensionUnit": "count"
+    }
+  ]
+}

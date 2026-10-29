@@ -1,0 +1,56 @@
+{
+  "id": "3cee3fc8-8dfc-44d0-83bf-da08210b7890",
+  "name": "vendorsHeading",
+  "type": "Text",
+  "pageId": "3341ca08-3f70-4ff0-8e9e-c528b5984397",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Vendors by next review date"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "5c2c1c73-8683-4f51-8c72-18affd0dd428",
+      "type": "desktop",
+      "top": 300,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3cee3fc8-8dfc-44d0-83bf-da08210b7890",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "aca6c25f-a678-41cf-b075-36bd4f4b395d",
+      "type": "mobile",
+      "top": 300,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3cee3fc8-8dfc-44d0-83bf-da08210b7890",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "7f567547-7aba-4395-aa2d-37b750a15be2",
+  "name": "dunningHeading",
+  "type": "Text",
+  "pageId": "1c97fa6a-b661-4a3e-856e-bf53f42eb89f",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Collections policy"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "64758e33-2734-4281-abd8-f2a07c6ab3ca",
+      "type": "desktop",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "7f567547-7aba-4395-aa2d-37b750a15be2",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b44b8489-05a5-4b11-acd7-9c42b4a4ecf8",
+      "type": "mobile",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "7f567547-7aba-4395-aa2d-37b750a15be2",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "4587ff43-6007-4d42-b4ce-b628c86d27f9",
+  "name": "overviewHeader",
+  "type": "Html",
+  "pageId": "62bae4de-c148-4bd8-9332-5201e3b1f628",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">IT &amp; Security · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">Supplier risk overview</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Concentration of risk and data exposure, plus the review cadence auditors expect</div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "e820eafc-2315-4fb2-aa97-052d6156397a",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "4587ff43-6007-4d42-b4ce-b628c86d27f9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "08630db6-a9ef-43f4-8db4-f24bbfa17d02",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "4587ff43-6007-4d42-b4ce-b628c86d27f9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

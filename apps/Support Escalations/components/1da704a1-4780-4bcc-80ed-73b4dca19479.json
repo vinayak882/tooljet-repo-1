@@ -1,0 +1,56 @@
+{
+  "id": "1da704a1-4780-4bcc-80ed-73b4dca19479",
+  "name": "slaPolicyHeading",
+  "type": "Text",
+  "pageId": "87eebad5-b4dc-47e1-9e6e-c0c0c588e65e",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Contractual SLA targets"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "45686eec-cf35-4e89-9fb2-d4d327b92e8c",
+      "type": "desktop",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "1da704a1-4780-4bcc-80ed-73b4dca19479",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b4046807-27bd-41cb-ae72-beb38d78b3e2",
+      "type": "mobile",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "1da704a1-4780-4bcc-80ed-73b4dca19479",
+      "dimensionUnit": "count"
+    }
+  ]
+}

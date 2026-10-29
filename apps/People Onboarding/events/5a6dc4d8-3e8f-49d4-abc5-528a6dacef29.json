@@ -1,0 +1,15 @@
+{
+  "id": "5a6dc4d8-3e8f-49d4-abc5-528a6dacef29",
+  "name": "onClick → run-query",
+  "index": 0,
+  "event": {
+    "ref": "actions::provision",
+    "eventId": "onClick",
+    "queryId": "98b503cb-4486-4cb8-a4b6-7390d1bc9091",
+    "actionId": "run-query",
+    "queryName": "q_provision_access"
+  },
+  "sourceId": "2b01cc43-ada9-4de4-b911-2c01df7ded12",
+  "target": "table_column",
+  "appVersionId": "d7708a0e-2ebf-43e6-9984-7119bf124fe2"
+}

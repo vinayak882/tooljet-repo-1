@@ -1,0 +1,56 @@
+{
+  "id": "c1bf00e5-5fdc-4097-a3be-068bba4c1328",
+  "name": "bundleHeading",
+  "type": "Text",
+  "pageId": "88eb71f2-ee8e-4523-a52f-e87afca7c7f9",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Day-one ToolJet access by department"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "6217f04e-5333-406d-89d5-c89cb34b6b7c",
+      "type": "desktop",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c1bf00e5-5fdc-4097-a3be-068bba4c1328",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "44be5942-077e-4dc6-bec6-cff3d0a8dd46",
+      "type": "mobile",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c1bf00e5-5fdc-4097-a3be-068bba4c1328",
+      "dimensionUnit": "count"
+    }
+  ]
+}

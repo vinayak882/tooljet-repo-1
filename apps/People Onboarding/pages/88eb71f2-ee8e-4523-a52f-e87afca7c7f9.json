@@ -1,0 +1,33 @@
+{
+  "id": "88eb71f2-ee8e-4523-a52f-e87afca7c7f9",
+  "name": "Provisioning",
+  "handle": "provisioning",
+  "index": 999,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconKey",
+  "autoComputeLayout": true,
+  "appVersionId": "d7708a0e-2ebf-43e6-9984-7119bf124fe2",
+  "pageGroupIndex": 2,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "pageFooter": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "appId": "",
+  "targetCorelationId": null
+}

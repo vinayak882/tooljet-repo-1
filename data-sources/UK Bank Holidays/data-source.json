@@ -1,0 +1,37 @@
+{
+  "id": "162d3488-3cc6-4d46-ac35-d6dc929afcf6",
+  "kind": "restapi",
+  "options": {
+    "development": {
+      "auth_type": "none",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ]
+      ],
+      "url": "{{constants.GOVUK_API_BASE_URL}}"
+    },
+    "production": {
+      "auth_type": "none",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ]
+      ],
+      "url": "{{constants.GOVUK_API_BASE_URL}}"
+    },
+    "staging": {
+      "auth_type": "none",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ]
+      ],
+      "url": "{{constants.GOVUK_API_BASE_URL}}"
+    }
+  },
+  "type": "default"
+}

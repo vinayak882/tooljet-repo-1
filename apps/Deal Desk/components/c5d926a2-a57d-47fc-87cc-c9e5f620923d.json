@@ -1,0 +1,56 @@
+{
+  "id": "c5d926a2-a57d-47fc-87cc-c9e5f620923d",
+  "name": "discountByRepHeading",
+  "type": "Text",
+  "pageId": "ca0a3f48-9496-49b5-ac46-83d800e49e4d",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Average discount requested by rep"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1ae29509-1cc5-44c7-9e58-3f1d8bd794d3",
+      "type": "desktop",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c5d926a2-a57d-47fc-87cc-c9e5f620923d",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "7beacaf2-748a-47b5-8b6c-aed929959451",
+      "type": "mobile",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c5d926a2-a57d-47fc-87cc-c9e5f620923d",
+      "dimensionUnit": "count"
+    }
+  ]
+}

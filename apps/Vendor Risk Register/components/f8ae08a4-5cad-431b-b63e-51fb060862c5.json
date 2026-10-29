@@ -1,0 +1,46 @@
+{
+  "id": "f8ae08a4-5cad-431b-b63e-51fb060862c5",
+  "name": "registerKpis",
+  "type": "Html",
+  "pageId": "3341ca08-3f70-4ff0-8e9e-c528b5984397",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);display:grid;grid-template-columns:repeat(4,1fr);gap:16px\">{{(function(){ var d = queries.q_vendors.data || []; var cust = d.filter(function(r){ return r.data_access === 'Customer data'; }).length; var high = d.filter(function(r){ return r.risk_tier === 'High'; }).length; var now = Date.now(); var due = d.filter(function(r){ return new Date(r.next_review).getTime() - now <= 60*86400000; }).length; var nosoc = d.filter(function(r){ return !r.soc2; }).length; var tile = function(l,v,c,col){ return '<div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:16px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">' + l + '</div><div style=\"font-size:28px;font-weight:700;margin-top:4px;color:' + col + '\">' + v + '</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-top:4px\">' + c + '</div></div>'; }; return tile('Vendors in register', d.length, cust + ' process customer data', 'var(--cc-primary-text)') + tile('High-risk vendors', high, 'Annual review and SOC 2 required', 'var(--cc-warning-systemStatus)') + tile('Reviews due in 60 days', due, 'Owners notified automatically', due ? 'var(--cc-primary-brand)' : 'var(--cc-primary-text)') + tile('Missing SOC 2 report', nosoc, 'Compensating controls required', nosoc ? 'var(--cc-error-systemStatus)' : 'var(--cc-primary-text)'); })()}}</div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "c37b2989-e4b5-4a51-a14a-ab2bb2b385a5",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "f8ae08a4-5cad-431b-b63e-51fb060862c5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "bccd6366-c3f5-4fe9-9629-198ff437495a",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "f8ae08a4-5cad-431b-b63e-51fb060862c5",
+      "dimensionUnit": "count"
+    }
+  ]
+}

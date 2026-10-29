@@ -1,0 +1,46 @@
+{
+  "id": "53b38ea6-d1cd-4a85-bfab-58a1406e5587",
+  "name": "cadencePolicy",
+  "type": "Html",
+  "pageId": "62bae4de-c148-4bd8-9332-5201e3b1f628",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface)\"><div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:8px 20px\"><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px\"><span style=\"font-weight:600;color:var(--cc-error-systemStatus)\">High risk</span><span style=\"color:var(--cc-primary-text)\">Annual review, current SOC 2 Type II or ISO 27001</span><span style=\"color:var(--cc-placeholder-text)\">DPA and sub-processor notice to customers</span></div><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px\"><span style=\"font-weight:600;color:var(--cc-warning-systemStatus)\">Medium risk</span><span style=\"color:var(--cc-primary-text)\">Review every 18 months, security questionnaire</span><span style=\"color:var(--cc-placeholder-text)\">Owner attests access is least-privilege</span></div><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;font-size:14px\"><span style=\"font-weight:600;color:var(--cc-success-systemStatus)\">Low risk</span><span style=\"color:var(--cc-primary-text)\">Review every 24 months</span><span style=\"color:var(--cc-placeholder-text)\">No customer or employee data permitted</span></div></div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "b42c364d-be7e-43c5-a0e4-06e8cf8850a1",
+      "type": "desktop",
+      "top": 560,
+      "left": 2,
+      "width": 39,
+      "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "53b38ea6-d1cd-4a85-bfab-58a1406e5587",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "9d2951fb-c6be-4471-b5e6-8b04bcc3f040",
+      "type": "mobile",
+      "top": 560,
+      "left": 2,
+      "width": 39,
+      "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "53b38ea6-d1cd-4a85-bfab-58a1406e5587",
+      "dimensionUnit": "count"
+    }
+  ]
+}

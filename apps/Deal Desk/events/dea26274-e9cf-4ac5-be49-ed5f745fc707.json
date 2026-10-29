@@ -1,0 +1,14 @@
+{
+  "id": "dea26274-e9cf-4ac5-be49-ed5f745fc707",
+  "name": "Refresh q_deals after q_reject",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "queryId": "e1b84450-f57e-42e2-b1fb-97145f016e61",
+    "actionId": "run-query",
+    "queryName": "q_deals"
+  },
+  "sourceId": "22c82336-1d04-4589-a9df-5ad5d0822255",
+  "target": "data_query",
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b"
+}

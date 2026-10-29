@@ -1,0 +1,46 @@
+{
+  "id": "bd9e76f7-5336-451d-a229-7d6ae9df8006",
+  "name": "accountSummary",
+  "type": "Html",
+  "pageId": "b9853262-7698-49b9-a152-2214bdbdf434",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);display:grid;grid-template-columns:repeat(6,1fr);gap:12px\">{{(function(){ var sel = components.accountPicker?.value; var a = (queries.q_accounts.data || []).filter(function(r){ return r.account_name === sel; })[0] || {}; var esc = (queries.q_esc.data || []).filter(function(r){ return r.account_name === sel && r.status !== 'Resolved'; }); var od = (queries.q_inv.data || []).filter(function(r){ return r.account_name === sel && r.status === 'Overdue'; }).reduce(function(s,r){ return s + (r.amount_gbp || 0); }, 0); var im = (queries.q_impl.data || []).filter(function(r){ return r.account_name === sel && r.phase !== 'Hypercare'; }); var hc = a.health === 'At risk' ? 'var(--cc-error-systemStatus)' : (a.health === 'Watch' ? 'var(--cc-warning-systemStatus)' : 'var(--cc-success-systemStatus)'); var tile = function(l,v,c,col){ return '<div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:16px;min-width:0\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">' + l + '</div><div style=\"font-size:24px;font-weight:700;margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:' + col + '\">' + v + '</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-top:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis\">' + c + '</div></div>'; }; return tile('ARR', a.arr_gbp ? '£' + Number(a.arr_gbp).toLocaleString('en-GB') : '—', (a.industry || '') + ' · ' + (a.region || ''), 'var(--cc-primary-text)') + tile('Health', (a.health_score || 0) + ' / 100', a.health || 'No account selected', hc) + tile('Renewal', a.renewal_date ? new Date(a.renewal_date).toLocaleDateString('en-GB', {day:'2-digit', month:'short', year:'numeric'} ) : '—', 'CSM: ' + ((a.csm_email || '').split('@')[0] || '—'), 'var(--cc-primary-text)') + tile('Open escalations', esc.length, esc.filter(function(r){ return r.sla_status === 'Breached'; }).length + ' breaching SLA', esc.length ? 'var(--cc-error-systemStatus)' : 'var(--cc-primary-text)') + tile('Overdue balance', '£' + od.toLocaleString('en-GB'), 'From Billing & Collections', od ? 'var(--cc-error-systemStatus)' : 'var(--cc-primary-text)') + tile('Projects in flight', im.length, (a.modules_live || 0) + ' modules already live', 'var(--cc-primary-brand)'); })()}}</div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "0d2acf31-323f-4302-990d-325b4e178dca",
+      "type": "desktop",
+      "top": 220,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "bd9e76f7-5336-451d-a229-7d6ae9df8006",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "f3b03874-06fe-4c06-82f0-8ae2f77ecf86",
+      "type": "mobile",
+      "top": 220,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "bd9e76f7-5336-451d-a229-7d6ae9df8006",
+      "dimensionUnit": "count"
+    }
+  ]
+}

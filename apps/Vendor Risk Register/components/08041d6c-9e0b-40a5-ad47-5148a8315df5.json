@@ -1,0 +1,56 @@
+{
+  "id": "08041d6c-9e0b-40a5-ad47-5148a8315df5",
+  "name": "tierHeading",
+  "type": "Text",
+  "pageId": "62bae4de-c148-4bd8-9332-5201e3b1f628",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Vendors by risk tier"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "cdcaf26c-f30a-44d2-89ad-4386f74b9e77",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "08041d6c-9e0b-40a5-ad47-5148a8315df5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "17af6baa-245a-49fd-b4ef-9e9c9004b955",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "08041d6c-9e0b-40a5-ad47-5148a8315df5",
+      "dimensionUnit": "count"
+    }
+  ]
+}

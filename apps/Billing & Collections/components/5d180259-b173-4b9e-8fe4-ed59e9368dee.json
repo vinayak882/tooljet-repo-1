@@ -1,0 +1,56 @@
+{
+  "id": "5d180259-b173-4b9e-8fe4-ed59e9368dee",
+  "name": "customerHeading",
+  "type": "Text",
+  "pageId": "1c97fa6a-b661-4a3e-856e-bf53f42eb89f",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Unpaid balance by customer"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "bb582444-1d91-4ab7-910d-44aa1a7db7df",
+      "type": "desktop",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5d180259-b173-4b9e-8fe4-ed59e9368dee",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "fc01be8f-73ca-4fd2-bef6-42d3b7a22260",
+      "type": "mobile",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "5d180259-b173-4b9e-8fe4-ed59e9368dee",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2ef0692d-9bdd-4a55-82aa-f94f9b7fa264",
+  "name": "cadenceHeading",
+  "type": "Text",
+  "pageId": "62bae4de-c148-4bd8-9332-5201e3b1f628",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Review cadence policy"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "af63d9b7-0ba5-4390-a08e-527e3290de97",
+      "type": "desktop",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2ef0692d-9bdd-4a55-82aa-f94f9b7fa264",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "5ff3b10b-a05f-4b22-9e9b-1187dacd627a",
+      "type": "mobile",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2ef0692d-9bdd-4a55-82aa-f94f9b7fa264",
+      "dimensionUnit": "count"
+    }
+  ]
+}

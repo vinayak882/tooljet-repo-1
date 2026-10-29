@@ -1,0 +1,62 @@
+{
+  "id": "9402f5cf-4e32-4b9b-85fa-b0070f5ade1a",
+  "name": "workloadChart",
+  "type": "Chart",
+  "pageId": "7afc80f8-95db-4d3d-857f-94ce223ebdbe",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = (queries.q_impl.data || []).filter(function(r){ return r.phase !== 'Hypercare'; }); var em = d.map(function(r){ return r.consultant_email; }).filter(function(v,i,a){ return v && a.indexOf(v) === i; }); var nm = function(e){ return e.split('@')[0].split('.').map(function(s){ return s.charAt(0).toUpperCase() + s.slice(1); }).join(' '); }; var rows = em.map(function(e){ return {n:nm(e), v:d.filter(function(r){ return r.consultant_email === e; }).length}; }).sort(function(a,b){ return a.v - b.v; }); var mx = rows.reduce(function(m,r){ return Math.max(m, r.v); }, 0); return {data:[{type:'bar', orientation:'h', y:rows.map(function(r){ return r.n; }), x:rows.map(function(r){ return r.v; }), marker:{color:rows.map(function(r){ return r.v >= 3 ? '#B45309' : '#00796B'; }), line:{width:0} }, text:rows.map(function(r){ return String(r.v); }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{y}<br>%{x} active<extra></extra>'}], layout:{bargap:0.4, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{range:[0, mx * 1.2], gridcolor:'#EEF2F5', zeroline:false, showline:false, dtick:1, automargin:true}, yaxis:{showgrid:false, showline:false, automargin:true, ticksuffix:'  '} } }; })()}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "5f3f119c-a5b0-4ed0-b20a-e42d618a68c9",
+      "type": "desktop",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9402f5cf-4e32-4b9b-85fa-b0070f5ade1a",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "c9be8716-7267-45be-92df-2683634a08b1",
+      "type": "mobile",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "9402f5cf-4e32-4b9b-85fa-b0070f5ade1a",
+      "dimensionUnit": "count"
+    }
+  ]
+}

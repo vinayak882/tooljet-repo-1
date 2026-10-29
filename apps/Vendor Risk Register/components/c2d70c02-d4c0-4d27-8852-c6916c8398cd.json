@@ -1,0 +1,62 @@
+{
+  "id": "c2d70c02-d4c0-4d27-8852-c6916c8398cd",
+  "name": "tierChart",
+  "type": "Chart",
+  "pageId": "62bae4de-c148-4bd8-9332-5201e3b1f628",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = queries.q_vendors.data || []; var t = ['Low','Medium','High']; var y = t.map(function(s){ return d.filter(function(r){ return r.risk_tier === s; }).length; }); return {data:[{type:'bar', x:t, y:y, marker:{color:['#15803D','#B45309','#B91C1C'], line:{width:0} }, text:y.map(function(v){ return String(v); }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{x}<br>%{y} vendors<extra></extra>'}], layout:{bargap:0.5, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{showgrid:false, showline:false}, yaxis:{rangemode:'tozero', gridcolor:'#EEF2F5', zeroline:false, showline:false, dtick:1} } }; })()}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "ad91e1f1-1e55-47f8-b7c9-9233b59063dd",
+      "type": "desktop",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c2d70c02-d4c0-4d27-8852-c6916c8398cd",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "714a90c4-85c6-4333-8227-85dd38ffd4eb",
+      "type": "mobile",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c2d70c02-d4c0-4d27-8852-c6916c8398cd",
+      "dimensionUnit": "count"
+    }
+  ]
+}

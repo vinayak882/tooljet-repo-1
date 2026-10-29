@@ -1,0 +1,21 @@
+{
+  "id": "738f616a-e265-4f4e-bc15-47045d000f2c",
+  "name": "Escalation queue",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconAlertTriangle",
+  "autoComputeLayout": true,
+  "appVersionId": "5188f4a9-56d5-4056-b1da-38da541c167f",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "5188f4a9-56d5-4056-b1da-38da541c167f",
+  "targetCorelationId": null
+}

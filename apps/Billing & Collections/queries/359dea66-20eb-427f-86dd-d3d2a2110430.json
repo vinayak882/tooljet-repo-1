@@ -1,0 +1,39 @@
+{
+  "id": "359dea66-20eb-427f-86dd-d3d2a2110430",
+  "name": "q_mark_paid",
+  "options": {
+    "operation": "update_rows",
+    "update_rows": {
+      "columns": {
+        "0": {
+          "column": "status",
+          "value": "Paid"
+        },
+        "1": {
+          "column": "days_overdue",
+          "value": 0
+        }
+      },
+      "where_filters": {
+        "f-id": {
+          "id": "f-id",
+          "column": "id",
+          "operator": "eq",
+          "value": "{{components.c8b5de90-5c0a-4884-b637-7efe6142fb0a.selectedRow.id}}"
+        }
+      }
+    },
+    "runOnPageLoad": false,
+    "requestConfirmation": true,
+    "confirmationMessage": "Record this invoice as paid in full?",
+    "table_id": "8399b8e7-33d9-4ce9-8b59-a84bd528eec7",
+    "delete_rows": {
+      "limit": 1,
+      "order_column": "id"
+    }
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

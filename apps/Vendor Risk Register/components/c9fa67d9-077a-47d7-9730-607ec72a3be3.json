@@ -1,0 +1,46 @@
+{
+  "id": "c9fa67d9-077a-47d7-9730-607ec72a3be3",
+  "name": "registerHeader",
+  "type": "Html",
+  "pageId": "3341ca08-3f70-4ff0-8e9e-c528b5984397",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">IT &amp; Security · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">Third-party risk register</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Sub-processors and suppliers, the data they touch, and their ISO 27001 / SOC 2 review status</div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "a998f958-a5a2-463d-b1ab-7d30781d2b6c",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c9fa67d9-077a-47d7-9730-607ec72a3be3",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "23b79a85-2ad0-4f11-a6b0-0f5e4a99fbc8",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c9fa67d9-077a-47d7-9730-607ec72a3be3",
+      "dimensionUnit": "count"
+    }
+  ]
+}

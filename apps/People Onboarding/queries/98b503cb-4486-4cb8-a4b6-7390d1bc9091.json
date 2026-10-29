@@ -1,0 +1,31 @@
+{
+  "id": "98b503cb-4486-4cb8-a4b6-7390d1bc9091",
+  "name": "q_provision_access",
+  "options": {
+    "operation": "update_rows",
+    "update_rows": {
+      "columns": {
+        "0": {
+          "column": "access_status",
+          "value": "Provisioned"
+        }
+      },
+      "where_filters": {
+        "f-id": {
+          "id": "f-id",
+          "column": "id",
+          "operator": "eq",
+          "value": "{{components.startersTable.selectedRow.id}}"
+        }
+      }
+    },
+    "runOnPageLoad": false,
+    "requestConfirmation": true,
+    "confirmationMessage": "Confirm SSO, Assure sandbox and ToolJet group access has been provisioned for this starter?",
+    "table_id": "1ac67458-d722-4328-a0f3-8c27615b2639"
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "d7708a0e-2ebf-43e6-9984-7119bf124fe2",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

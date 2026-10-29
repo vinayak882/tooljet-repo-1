@@ -1,0 +1,56 @@
+{
+  "id": "efb5877e-f34d-4289-a145-c00c1664825e",
+  "name": "fxHeading",
+  "type": "Text",
+  "pageId": "1c97fa6a-b661-4a3e-856e-bf53f42eb89f",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Open receivables in customer currencies"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "e709dd19-bf01-4d89-80a5-c13f123882dc",
+      "type": "desktop",
+      "top": 780,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "efb5877e-f34d-4289-a145-c00c1664825e",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "6cf465ed-0e5a-4995-a127-7c54ce0643c1",
+      "type": "mobile",
+      "top": 780,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "efb5877e-f34d-4289-a145-c00c1664825e",
+      "dimensionUnit": "count"
+    }
+  ]
+}

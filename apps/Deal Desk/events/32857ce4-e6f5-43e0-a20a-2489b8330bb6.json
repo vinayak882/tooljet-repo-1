@@ -1,0 +1,15 @@
+{
+  "id": "32857ce4-e6f5-43e0-a20a-2489b8330bb6",
+  "name": "onClick → run-query",
+  "index": 0,
+  "event": {
+    "ref": "actions::approve",
+    "eventId": "onClick",
+    "queryId": "72b893d5-37fe-400c-a797-3a6d0ecc49b4",
+    "actionId": "run-query",
+    "queryName": "q_approve"
+  },
+  "sourceId": "a59418ee-8a68-4a6d-bfef-6bc06d65badc",
+  "target": "table_column",
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b"
+}

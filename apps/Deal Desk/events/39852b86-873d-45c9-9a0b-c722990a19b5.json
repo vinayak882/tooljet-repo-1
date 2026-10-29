@@ -1,0 +1,14 @@
+{
+  "id": "39852b86-873d-45c9-9a0b-c722990a19b5",
+  "name": "q_reject failed",
+  "index": 2,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Could not reject the request. Try again.",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "22c82336-1d04-4589-a9df-5ad5d0822255",
+  "target": "data_query",
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b"
+}
