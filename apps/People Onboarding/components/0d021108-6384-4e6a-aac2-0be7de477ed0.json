@@ -1,0 +1,43 @@
+{
+  "id": "0d021108-6384-4e6a-aac2-0be7de477ed0",
+  "name": "startersHeader",
+  "type": "Html",
+  "pageId": "8045c279-4b48-4278-80de-ea34476061d5",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">People · IT · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">New starter onboarding</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Hardware, access and onboarding stage for everyone joining in the next quarter</div></div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "20466b99-9bb4-4ba3-800c-12427ffaa622",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "0d021108-6384-4e6a-aac2-0be7de477ed0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "fcf386bc-0bd9-4978-b890-4c04484312e3",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "0d021108-6384-4e6a-aac2-0be7de477ed0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "50b1aa82-f832-48fe-a20b-38a950f297b6",
+  "name": "Confirm q_provision_access",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Access marked as provisioned",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "98b503cb-4486-4cb8-a4b6-7390d1bc9091",
+  "target": "data_query",
+  "appVersionId": "d7708a0e-2ebf-43e6-9984-7119bf124fe2"
+}

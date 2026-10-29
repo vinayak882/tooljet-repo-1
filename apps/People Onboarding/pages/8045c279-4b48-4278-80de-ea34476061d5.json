@@ -1,0 +1,21 @@
+{
+  "id": "8045c279-4b48-4278-80de-ea34476061d5",
+  "name": "New starters",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconUserPlus",
+  "autoComputeLayout": true,
+  "appVersionId": "d7708a0e-2ebf-43e6-9984-7119bf124fe2",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "d7708a0e-2ebf-43e6-9984-7119bf124fe2",
+  "targetCorelationId": null
+}

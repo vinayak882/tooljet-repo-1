@@ -1,0 +1,50 @@
+{
+  "id": "71e7c7e4-2277-48c9-b1b5-bf6408d2d871",
+  "name": "stageHeading",
+  "type": "Text",
+  "pageId": "88eb71f2-ee8e-4523-a52f-e87afca7c7f9",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Onboarding stage"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "fa9e5cee-5ac7-4e12-afc7-753f0be2094f",
+      "type": "desktop",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "71e7c7e4-2277-48c9-b1b5-bf6408d2d871",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3957c67c-1a04-427e-bef6-12e90a7c5695",
+      "type": "mobile",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "71e7c7e4-2277-48c9-b1b5-bf6408d2d871",
+      "dimensionUnit": "count"
+    }
+  ]
+}
