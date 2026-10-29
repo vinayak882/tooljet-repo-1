@@ -1,0 +1,21 @@
+{
+  "id": "3b8e6dad-8c46-4163-a623-6d2e3f48e256",
+  "name": "Approval queue",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconChecklist",
+  "autoComputeLayout": true,
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "21f76716-af6b-462f-8893-42682f34664b",
+  "targetCorelationId": null
+}

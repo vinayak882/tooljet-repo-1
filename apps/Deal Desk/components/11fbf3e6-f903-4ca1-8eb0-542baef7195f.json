@@ -1,0 +1,43 @@
+{
+  "id": "11fbf3e6-f903-4ca1-8eb0-542baef7195f",
+  "name": "queueHeader",
+  "type": "Html",
+  "pageId": "3b8e6dad-8c46-4163-a623-6d2e3f48e256",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">Sales · Finance · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">Discount approval queue</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Non-standard pricing requests awaiting Finance or CRO sign-off</div></div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "c1dc317d-c8ab-4eae-8671-e995ae4f6f8f",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "11fbf3e6-f903-4ca1-8eb0-542baef7195f",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "6a8af40e-9ec1-4ca5-bcfa-af9aaafb659b",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "11fbf3e6-f903-4ca1-8eb0-542baef7195f",
+      "dimensionUnit": "count"
+    }
+  ]
+}

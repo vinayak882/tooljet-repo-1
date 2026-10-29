@@ -1,0 +1,15 @@
+{
+  "id": "abde9102-7789-4e8e-9a18-4873a422da7e",
+  "name": "onClick → run-query",
+  "index": 0,
+  "event": {
+    "ref": "actions::reject",
+    "eventId": "onClick",
+    "queryId": "22c82336-1d04-4589-a9df-5ad5d0822255",
+    "actionId": "run-query",
+    "queryName": "q_reject"
+  },
+  "sourceId": "a59418ee-8a68-4a6d-bfef-6bc06d65badc",
+  "target": "table_column",
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b"
+}
