@@ -1,0 +1,62 @@
+{
+  "id": "73ad1ac5-ddde-42ed-83a0-b00ad6db1e69",
+  "name": "phaseChart",
+  "type": "Chart",
+  "pageId": "7afc80f8-95db-4d3d-857f-94ce223ebdbe",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = queries.q_impl.data || []; var ph = ['Kickoff','Configuration','UAT','Go-live','Hypercare']; var y = ph.map(function(p){ return d.filter(function(r){ return r.phase === p; }).length; }); return {data:[{type:'bar', x:ph, y:y, marker:{color:'#00796B', line:{width:0} }, text:y.map(function(v){ return String(v); }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{x}<br>%{y} projects<extra></extra>'}], layout:{bargap:0.45, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{showgrid:false, showline:false}, yaxis:{rangemode:'tozero', gridcolor:'#EEF2F5', zeroline:false, showline:false, dtick:1} } }; })()}}"
+    }
+  },
+  "general": null,
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "942f1781-d731-46af-af20-254f3090ab21",
+      "type": "desktop",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "73ad1ac5-ddde-42ed-83a0-b00ad6db1e69",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "4cc7a697-d282-425c-a848-caac16228701",
+      "type": "mobile",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "73ad1ac5-ddde-42ed-83a0-b00ad6db1e69",
+      "dimensionUnit": "count"
+    }
+  ]
+}

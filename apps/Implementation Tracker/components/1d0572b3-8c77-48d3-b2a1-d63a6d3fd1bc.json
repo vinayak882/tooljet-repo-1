@@ -1,0 +1,43 @@
+{
+  "id": "1d0572b3-8c77-48d3-b2a1-d63a6d3fd1bc",
+  "name": "projectKpis",
+  "type": "Html",
+  "pageId": "61584331-c0e3-45f9-b59a-240db9d3c363",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);display:grid;grid-template-columns:repeat(4,1fr);gap:16px\">{{(function(){ var d = queries.q_impl.data || []; var act = d.filter(function(r){ return r.phase !== 'Hypercare'; }); var now = Date.now(); var soon = act.filter(function(r){ var t = new Date(r.go_live_date).getTime(); return t >= now && t - now <= 30*86400000; }); var red = d.filter(function(r){ return r.rag === 'Red'; }).length; var amber = d.filter(function(r){ return r.rag === 'Amber'; }).length; var avg = act.length ? Math.round(act.reduce(function(s,r){ return s + (r.pct_complete || 0); }, 0) / act.length) : 0; var tile = function(l,v,c,col){ return '<div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:16px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">' + l + '</div><div style=\"font-size:28px;font-weight:700;margin-top:4px;color:' + col + '\">' + v + '</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-top:4px\">' + c + '</div></div>'; }; return tile('Active projects', act.length, d.length - act.length + ' in hypercare', 'var(--cc-primary-text)') + tile('Go-lives in 30 days', soon.length, 'Cutover plans to confirm', 'var(--cc-primary-brand)') + tile('Red delivery status', red, amber + ' more at amber', red ? 'var(--cc-error-systemStatus)' : 'var(--cc-primary-text)') + tile('Average completion', avg + '%', 'Across active projects', 'var(--cc-primary-text)'); })()}}</div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "34c3bdba-80f0-4f4a-9afd-9535969ae29c",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "1d0572b3-8c77-48d3-b2a1-d63a6d3fd1bc",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "157bda27-566b-4060-bb53-d70288d26025",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "1d0572b3-8c77-48d3-b2a1-d63a6d3fd1bc",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "7afc80f8-95db-4d3d-857f-94ce223ebdbe",
+  "name": "Delivery insights",
+  "handle": "delivery-insights",
+  "index": 999,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconChartBar",
+  "autoComputeLayout": true,
+  "appVersionId": "99fc35ff-3bea-453a-ae02-53ee8872b6e5",
+  "pageGroupIndex": 2,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "pageFooter": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "appId": "",
+  "targetCorelationId": null
+}

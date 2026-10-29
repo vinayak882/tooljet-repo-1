@@ -1,0 +1,127 @@
+{
+  "id": "99fc35ff-3bea-453a-ae02-53ee8872b6e5",
+  "definition": null,
+  "globalSettings": {
+    "appInMaintenance": false,
+    "canvasMaxWidth": 100,
+    "canvasMaxWidthType": "%",
+    "canvasMaxHeight": 2400,
+    "canvasBackgroundColor": "var(--cc-appBackground-surface)",
+    "backgroundFxQuery": "",
+    "appMode": "light",
+    "theme": {
+      "id": "1500f0f3-3bdc-4582-ac26-89d04d518211",
+      "name": "Evotix Assure",
+      "organizationId": "ee2d8fc4-8fe0-4f6f-ae50-825ce2b65672",
+      "definition": {
+        "brand": {
+          "colors": {
+            "primary": {
+              "light": "#00796B",
+              "dark": "#2DD4BF"
+            },
+            "secondary": {
+              "light": "#1E2A4A",
+              "dark": "#CBD5E1"
+            },
+            "tertiary": {
+              "light": "#F59E0B",
+              "dark": "#FBBF24"
+            }
+          }
+        },
+        "text": {
+          "font": "Inter",
+          "colors": {
+            "primary": {
+              "light": "#14213D",
+              "dark": "#F1F5F9"
+            },
+            "placeholder": {
+              "light": "#5B6478",
+              "dark": "#94A3B8"
+            },
+            "disabled": {
+              "light": "#A0A7B8",
+              "dark": "#64748B"
+            }
+          }
+        },
+        "border": {
+          "radius": {
+            "default": 8,
+            "small": 6,
+            "large": 12
+          },
+          "colors": {
+            "default": {
+              "light": "#DCE3EA",
+              "dark": "#334155"
+            },
+            "weak": {
+              "light": "#EEF2F5",
+              "dark": "#1F2937"
+            },
+            "disabled": {
+              "light": "#E5E9EE",
+              "dark": "#374151"
+            }
+          }
+        },
+        "systemStatus": {
+          "colors": {
+            "success": {
+              "light": "#15803D",
+              "dark": "#4ADE80"
+            },
+            "error": {
+              "light": "#B91C1C",
+              "dark": "#F87171"
+            },
+            "warning": {
+              "light": "#B45309",
+              "dark": "#FBBF24"
+            }
+          }
+        },
+        "surface": {
+          "colors": {
+            "appBackground": {
+              "light": "#F4F7F8",
+              "dark": "#0B1220"
+            },
+            "surface1": {
+              "light": "#FFFFFF",
+              "dark": "#111A2E"
+            },
+            "surface2": {
+              "light": "#EAF4F2",
+              "dark": "#16223A"
+            },
+            "surface3": {
+              "light": "#DCEDEA",
+              "dark": "#1E2D4A"
+            }
+          }
+        }
+      },
+      "isDefault": false,
+      "isBasic": false,
+      "createdAt": "2026-10-29T09:15:53.271Z",
+      "updatedAt": "2026-10-29T09:15:53.271Z"
+    }
+  },
+  "pageSettings": null,
+  "showViewerNavigation": true,
+  "homePageId": "61584331-c0e3-45f9-b59a-240db9d3c363",
+  "versionType": "version",
+  "appId": "99fc35ff-3bea-453a-ae02-53ee8872b6e5",
+  "promotedFrom": null,
+  "status": "DRAFT",
+  "description": null,
+  "publishedAt": null,
+  "releasedAt": null,
+  "isStub": false,
+  "sourceTag": null,
+  "isSynced": false
+}

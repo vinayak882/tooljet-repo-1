@@ -1,0 +1,50 @@
+{
+  "id": "c58380bb-6f42-48e0-9a19-2b9e9e6a5ff5",
+  "name": "phaseHeading",
+  "type": "Text",
+  "pageId": "7afc80f8-95db-4d3d-857f-94ce223ebdbe",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Projects by phase"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "d03ba9ff-e7bd-4922-aceb-32c546a29936",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c58380bb-6f42-48e0-9a19-2b9e9e6a5ff5",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3aaa480b-bab4-4369-846b-e0b585138dcc",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "c58380bb-6f42-48e0-9a19-2b9e9e6a5ff5",
+      "dimensionUnit": "count"
+    }
+  ]
+}

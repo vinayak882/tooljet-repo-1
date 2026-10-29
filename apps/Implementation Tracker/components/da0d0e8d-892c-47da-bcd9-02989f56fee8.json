@@ -1,0 +1,50 @@
+{
+  "id": "da0d0e8d-892c-47da-bcd9-02989f56fee8",
+  "name": "projectsHeading",
+  "type": "Text",
+  "pageId": "61584331-c0e3-45f9-b59a-240db9d3c363",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Projects by go-live date"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "71ef6eee-e217-409c-803b-59877bbb9ffb",
+      "type": "desktop",
+      "top": 300,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "da0d0e8d-892c-47da-bcd9-02989f56fee8",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "03a59d06-87c2-4023-9cba-98fad0d4510f",
+      "type": "mobile",
+      "top": 300,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "da0d0e8d-892c-47da-bcd9-02989f56fee8",
+      "dimensionUnit": "count"
+    }
+  ]
+}
