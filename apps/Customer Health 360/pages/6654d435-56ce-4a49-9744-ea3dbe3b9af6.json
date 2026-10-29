@@ -1,0 +1,21 @@
+{
+  "id": "6654d435-56ce-4a49-9744-ea3dbe3b9af6",
+  "name": "Portfolio",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconLayoutDashboard",
+  "autoComputeLayout": true,
+  "appVersionId": "01c2aeff-be44-4f82-a59b-d5572c015c9c",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "01c2aeff-be44-4f82-a59b-d5572c015c9c",
+  "targetCorelationId": null
+}

@@ -1,0 +1,50 @@
+{
+  "id": "823ce2be-f534-4719-b410-3f19a91652c4",
+  "name": "implementationsHeading",
+  "type": "Text",
+  "pageId": "b9853262-7698-49b9-a152-2214bdbdf434",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Implementation projects"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "5108a432-94d5-48b2-8be4-d0ec79ae4b31",
+      "type": "desktop",
+      "top": 740,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "823ce2be-f534-4719-b410-3f19a91652c4",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "a51fa9c3-8c7b-4b13-a75e-ca96c882a2a1",
+      "type": "mobile",
+      "top": 740,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "823ce2be-f534-4719-b410-3f19a91652c4",
+      "dimensionUnit": "count"
+    }
+  ]
+}

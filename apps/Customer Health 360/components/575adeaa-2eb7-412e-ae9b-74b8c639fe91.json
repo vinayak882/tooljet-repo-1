@@ -1,0 +1,43 @@
+{
+  "id": "575adeaa-2eb7-412e-ae9b-74b8c639fe91",
+  "name": "portfolioKpis",
+  "type": "Html",
+  "pageId": "6654d435-56ce-4a49-9744-ea3dbe3b9af6",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);display:grid;grid-template-columns:repeat(4,1fr);gap:16px\">{{(function(){ var d = queries.q_accounts.data || []; var sum = function(a){ return a.reduce(function(s,r){ return s + (r.arr_gbp || 0); }, 0); }; var gbp = function(v){ return v >= 1000000 ? '£' + (v/1000000).toFixed(2) + 'M' : '£' + Math.round(v/1000) + 'k'; }; var risk = d.filter(function(r){ return r.health === 'At risk'; }); var now = Date.now(); var ren = d.filter(function(r){ var t = new Date(r.renewal_date).getTime(); return t >= now && t - now <= 120*86400000; }); var avg = d.length ? Math.round(d.reduce(function(s,r){ return s + (r.health_score || 0); }, 0) / d.length) : 0; var tile = function(l,v,c,col){ return '<div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:16px\"><div style=\"font-size:12px;color:var(--cc-placeholder-text)\">' + l + '</div><div style=\"font-size:28px;font-weight:700;margin-top:4px;color:' + col + '\">' + v + '</div><div style=\"font-size:12px;color:var(--cc-placeholder-text);margin-top:4px\">' + c + '</div></div>'; }; return tile('Total ARR', gbp(sum(d)), d.length + ' active customers', 'var(--cc-primary-text)') + tile('ARR at risk', gbp(sum(risk)), risk.length + ' accounts below 50 health', 'var(--cc-error-systemStatus)') + tile('Renewing in 120 days', gbp(sum(ren)), ren.length + ' renewals to secure', 'var(--cc-primary-text)') + tile('Average health score', avg + ' / 100', 'Weighted equally across accounts', 'var(--cc-primary-brand)'); })()}}</div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1baf7c23-2a6f-47be-857a-03fb46800d3c",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "575adeaa-2eb7-412e-ae9b-74b8c639fe91",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "6f4f0746-bd69-4181-95a2-efc3d14b0417",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 39,
+      "height": 140,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "575adeaa-2eb7-412e-ae9b-74b8c639fe91",
+      "dimensionUnit": "count"
+    }
+  ]
+}

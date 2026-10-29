@@ -1,0 +1,50 @@
+{
+  "id": "aab34320-8ce4-4f18-9992-c48b2dfabaf0",
+  "name": "accountsHeading",
+  "type": "Text",
+  "pageId": "6654d435-56ce-4a49-9744-ea3dbe3b9af6",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "All customer accounts"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "5d11393b-5e1f-49a0-9a66-a49685e543fb",
+      "type": "desktop",
+      "top": 300,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "aab34320-8ce4-4f18-9992-c48b2dfabaf0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "6dac11ba-addb-4d09-9a2b-227e0ef2601f",
+      "type": "mobile",
+      "top": 300,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "aab34320-8ce4-4f18-9992-c48b2dfabaf0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

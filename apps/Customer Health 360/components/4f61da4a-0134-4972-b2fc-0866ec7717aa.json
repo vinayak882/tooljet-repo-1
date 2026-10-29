@@ -1,0 +1,43 @@
+{
+  "id": "4f61da4a-0134-4972-b2fc-0866ec7717aa",
+  "name": "account360Header",
+  "type": "Html",
+  "pageId": "b9853262-7698-49b9-a152-2214bdbdf434",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">Customer Success · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">Account 360</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">One customer across Success, Support, Finance and Professional Services data</div></div>"
+    }
+  },
+  "general": null,
+  "styles": {},
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "e6d174d8-992f-49d8-9a48-7a503090258d",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "4f61da4a-0134-4972-b2fc-0866ec7717aa",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "a41fefec-58bb-4cba-b4fb-7c97fd703ec7",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "4f61da4a-0134-4972-b2fc-0866ec7717aa",
+      "dimensionUnit": "count"
+    }
+  ]
+}

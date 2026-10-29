@@ -1,0 +1,50 @@
+{
+  "id": "bbc3c7a5-5848-42cb-afa5-f96fe557a67b",
+  "name": "invoicesHeading",
+  "type": "Text",
+  "pageId": "b9853262-7698-49b9-a152-2214bdbdf434",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Invoices"
+    }
+  },
+  "general": null,
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": null,
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "db40ea20-0d2c-4b1c-988c-11d4a3fa759a",
+      "type": "desktop",
+      "top": 380,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "bbc3c7a5-5848-42cb-afa5-f96fe557a67b",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "fdf126d5-415f-487c-82b8-6612e4088207",
+      "type": "mobile",
+      "top": 380,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "bbc3c7a5-5848-42cb-afa5-f96fe557a67b",
+      "dimensionUnit": "count"
+    }
+  ]
+}

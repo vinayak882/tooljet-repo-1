@@ -1,0 +1,33 @@
+{
+  "id": "b9853262-7698-49b9-a152-2214bdbdf434",
+  "name": "Account 360",
+  "handle": "account-360",
+  "index": 999,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconId",
+  "autoComputeLayout": true,
+  "appVersionId": "01c2aeff-be44-4f82-a59b-d5572c015c9c",
+  "pageGroupIndex": 2,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "pageFooter": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "appId": "",
+  "targetCorelationId": null
+}
