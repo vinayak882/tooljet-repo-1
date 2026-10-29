@@ -62,15 +62,33 @@
     },
     "showSearchInput": {
       "value": true
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
     }
   },
-  "general": null,
+  "general": {},
   "styles": {
     "alignment": {
       "value": "top"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "menuWidthMode": {
+      "value": "matchField"
+    },
+    "menuCustomWidth": {
+      "value": "256"
+    },
+    "widthType": {
+      "value": "ofField"
     }
   },
-  "generalStyles": null,
+  "generalStyles": {},
   "displayPreferences": {},
   "validation": {},
   "layouts": [
