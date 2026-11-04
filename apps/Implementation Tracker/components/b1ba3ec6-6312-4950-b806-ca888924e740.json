@@ -1,0 +1,56 @@
+{
+  "id": "b1ba3ec6-6312-4950-b806-ca888924e740",
+  "name": "workloadHeading",
+  "type": "Text",
+  "pageId": "7afc80f8-95db-4d3d-857f-94ce223ebdbe",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Active projects per consultant"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "f95a2c30-deba-45b2-9ddc-3f24a4105e6f",
+      "type": "desktop",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "b1ba3ec6-6312-4950-b806-ca888924e740",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b1e64ece-6373-4e53-8389-b5805cbe554d",
+      "type": "mobile",
+      "top": 140,
+      "left": 22,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "b1ba3ec6-6312-4950-b806-ca888924e740",
+      "dimensionUnit": "count"
+    }
+  ]
+}

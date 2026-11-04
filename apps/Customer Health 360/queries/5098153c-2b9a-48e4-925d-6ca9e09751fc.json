@@ -1,0 +1,24 @@
+{
+  "id": "5098153c-2b9a-48e4-925d-6ca9e09751fc",
+  "name": "q_inv",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 500,
+      "offset": 0,
+      "order_filters": {
+        "sort-due": {
+          "id": "sort-due",
+          "column": "due_on",
+          "order": "desc"
+        }
+      }
+    },
+    "runOnPageLoad": true,
+    "table_id": "8399b8e7-33d9-4ce9-8b59-a84bd528eec7"
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "01c2aeff-be44-4f82-a59b-d5572c015c9c",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

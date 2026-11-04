@@ -1,0 +1,14 @@
+{
+  "id": "017e7c4c-47d7-45ad-a2d5-96cecdefe8f8",
+  "name": "Confirm q_reject",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Discount rejected",
+    "actionId": "show-alert",
+    "alertType": "info"
+  },
+  "sourceId": "22c82336-1d04-4589-a9df-5ad5d0822255",
+  "target": "data_query",
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b"
+}

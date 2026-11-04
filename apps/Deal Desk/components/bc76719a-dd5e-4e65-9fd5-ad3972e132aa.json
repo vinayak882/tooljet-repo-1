@@ -1,0 +1,62 @@
+{
+  "id": "bc76719a-dd5e-4e65-9fd5-ad3972e132aa",
+  "name": "acvByStatusChart",
+  "type": "Chart",
+  "pageId": "ca0a3f48-9496-49b5-ac46-83d800e49e4d",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = queries.q_deals.data || []; var st = ['Pending','Approved','Rejected']; var y = st.map(function(s){ return d.filter(function(r){ return r.status === s; }).reduce(function(a,r){ return a + (r.acv_gbp || 0); }, 0); }); return {data:[{type:'bar', x:st, y:y, marker:{color:['#B45309','#00796B','#B91C1C'], line:{width:0} }, text:y.map(function(v){ return '£' + Math.round(v/1000) + 'k'; }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{x}<br>£%{y:,.0f}<extra></extra>'}], layout:{bargap:0.45, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{showgrid:false, showline:false}, yaxis:{rangemode:'tozero', gridcolor:'#EEF2F5', zeroline:false, showline:false, tickprefix:'£'} } }; })()}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "7f0f56a1-ec73-4558-9aae-be9529ef9897",
+      "type": "desktop",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "bc76719a-dd5e-4e65-9fd5-ad3972e132aa",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "34a0e7f5-f659-47a6-8422-ddc646217355",
+      "type": "mobile",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "bc76719a-dd5e-4e65-9fd5-ad3972e132aa",
+      "dimensionUnit": "count"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "8273b1df-9c43-4150-868a-56b64733f7d0",
+  "name": "holidaysHeading",
+  "type": "Text",
+  "pageId": "8045c279-4b48-4278-80de-ea34476061d5",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Upcoming UK bank holidays for start-date planning"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "81aed453-1e03-415e-8211-4c1928f18cee",
+      "type": "desktop",
+      "top": 860,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "8273b1df-9c43-4150-868a-56b64733f7d0",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "30e6952d-3b39-4955-9af0-0a0b5e0c08b9",
+      "type": "mobile",
+      "top": 860,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "8273b1df-9c43-4150-868a-56b64733f7d0",
+      "dimensionUnit": "count"
+    }
+  ]
+}

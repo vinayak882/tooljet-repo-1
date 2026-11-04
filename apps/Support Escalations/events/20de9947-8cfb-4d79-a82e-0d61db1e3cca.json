@@ -1,0 +1,14 @@
+{
+  "id": "20de9947-8cfb-4d79-a82e-0d61db1e3cca",
+  "name": "q_resolve failed",
+  "index": 2,
+  "event": {
+    "eventId": "onDataQueryFailure",
+    "message": "Could not update the escalation. Try again.",
+    "actionId": "show-alert",
+    "alertType": "error"
+  },
+  "sourceId": "a5d3ca2b-7fdc-4be0-ba35-256ce407db5b",
+  "target": "data_query",
+  "appVersionId": "5188f4a9-56d5-4056-b1da-38da541c167f"
+}

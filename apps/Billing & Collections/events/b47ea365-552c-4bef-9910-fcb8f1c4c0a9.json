@@ -1,0 +1,14 @@
+{
+  "id": "b47ea365-552c-4bef-9910-fcb8f1c4c0a9",
+  "name": "Confirm q_mark_paid",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Payment recorded",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "359dea66-20eb-427f-86dd-d3d2a2110430",
+  "target": "data_query",
+  "appVersionId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9"
+}

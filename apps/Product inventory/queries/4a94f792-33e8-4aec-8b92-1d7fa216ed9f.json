@@ -1,0 +1,51 @@
+{
+  "id": "4a94f792-33e8-4aec-8b92-1d7fa216ed9f",
+  "name": "bearerToken_copy",
+  "options": {
+    "method": "get",
+    "url": "",
+    "url_params": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "headers": [
+      [
+        "Authorization",
+        "Bearer TEST_ONLY_NOT_A_REAL_SECRET_123456789"
+      ],
+      [
+        "X-API-Key",
+        "TEST_ONLY_NOT_A_REAL_SECRET_123456789"
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    "cookies": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "body": [
+      [
+        "",
+        ""
+      ]
+    ],
+    "json_body": null,
+    "body_toggle": false,
+    "retry_network_errors": null,
+    "transformationLanguage": "javascript",
+    "enableTransformation": false,
+    "raw_body": null,
+    "arrayValuesChanged": true
+  },
+  "dataSourceId": "c14a2fb6-c1a7-4666-98c4-d120da1fcf39",
+  "appVersionId": "356a6a14-3601-4951-bdcc-6bef8f1ac5cd",
+  "kind": "restapi",
+  "dataSourceType": "static"
+}

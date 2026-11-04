@@ -1,0 +1,56 @@
+{
+  "id": "d9aeeed8-5ebc-4308-8b7a-3d3a2efc1fe3",
+  "name": "startersHeading",
+  "type": "Text",
+  "pageId": "8045c279-4b48-4278-80de-ea34476061d5",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Starters by start date"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "8eabf824-f5da-4fee-8a5c-16c541dc7f66",
+      "type": "desktop",
+      "top": 300,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d9aeeed8-5ebc-4308-8b7a-3d3a2efc1fe3",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "706cf87e-d654-466c-b427-3a7510aadfdb",
+      "type": "mobile",
+      "top": 300,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d9aeeed8-5ebc-4308-8b7a-3d3a2efc1fe3",
+      "dimensionUnit": "count"
+    }
+  ]
+}

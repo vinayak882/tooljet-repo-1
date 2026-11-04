@@ -1,0 +1,28 @@
+{
+  "id": "660c6d5a-3269-48df-9ebf-3edbe4221084",
+  "name": "q_esc",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 500,
+      "offset": 0,
+      "order_filters": {
+        "sort-op": {
+          "id": "sort-op",
+          "column": "opened_at",
+          "order": "desc"
+        }
+      }
+    },
+    "runOnPageLoad": true,
+    "table_id": "2016606f-6f9f-483a-ab21-68dad2202070",
+    "delete_rows": {
+      "limit": 1,
+      "order_column": "id"
+    }
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "5188f4a9-56d5-4056-b1da-38da541c167f",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

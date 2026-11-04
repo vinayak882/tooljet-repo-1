@@ -1,0 +1,56 @@
+{
+  "id": "2d6062a5-a338-4958-b5c4-5c13f8036459",
+  "name": "deptHeading",
+  "type": "Text",
+  "pageId": "88eb71f2-ee8e-4523-a52f-e87afca7c7f9",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Starters by department"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "ab1ac28f-8df8-4fcc-9bab-f56c7c0b9e57",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2d6062a5-a338-4958-b5c4-5c13f8036459",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "52ee2f84-b865-4a93-b180-09c7a3b6dea6",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 19,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "2d6062a5-a338-4958-b5c4-5c13f8036459",
+      "dimensionUnit": "count"
+    }
+  ]
+}

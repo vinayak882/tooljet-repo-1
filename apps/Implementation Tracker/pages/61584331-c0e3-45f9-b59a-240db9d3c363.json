@@ -1,0 +1,21 @@
+{
+  "id": "61584331-c0e3-45f9-b59a-240db9d3c363",
+  "name": "Projects",
+  "handle": "home",
+  "index": 1,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconRocket",
+  "autoComputeLayout": true,
+  "appVersionId": "99fc35ff-3bea-453a-ae02-53ee8872b6e5",
+  "pageGroupIndex": 1,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": null,
+  "pageFooter": null,
+  "appId": "99fc35ff-3bea-453a-ae02-53ee8872b6e5",
+  "targetCorelationId": null
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1f6ed381-ef7a-4a09-beae-153e1927bb10",
+  "name": "policyHeading",
+  "type": "Text",
+  "pageId": "ca0a3f48-9496-49b5-ac46-83d800e49e4d",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Discount approval policy"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1b103b0f-f0b2-42ec-b4c9-60529b9748af",
+      "type": "desktop",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "1f6ed381-ef7a-4a09-beae-153e1927bb10",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "60fca00c-6b5f-4d82-b811-9362f28553ea",
+      "type": "mobile",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "1f6ed381-ef7a-4a09-beae-153e1927bb10",
+      "dimensionUnit": "count"
+    }
+  ]
+}

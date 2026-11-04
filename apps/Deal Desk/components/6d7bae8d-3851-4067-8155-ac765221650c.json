@@ -1,0 +1,46 @@
+{
+  "id": "6d7bae8d-3851-4067-8155-ac765221650c",
+  "name": "insightsHeader",
+  "type": "Html",
+  "pageId": "ca0a3f48-9496-49b5-ac46-83d800e49e4d",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">Sales · Finance · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">Pricing discipline</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Where discount pressure is coming from, and the approval policy that governs it</div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "daebaaee-903d-48f0-8633-1faada123715",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "6d7bae8d-3851-4067-8155-ac765221650c",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "95bcf57b-1a27-49f0-a031-689c2e76745d",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "6d7bae8d-3851-4067-8155-ac765221650c",
+      "dimensionUnit": "count"
+    }
+  ]
+}

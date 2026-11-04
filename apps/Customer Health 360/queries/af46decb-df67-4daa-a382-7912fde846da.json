@@ -1,0 +1,24 @@
+{
+  "id": "af46decb-df67-4daa-a382-7912fde846da",
+  "name": "q_impl",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 500,
+      "offset": 0,
+      "order_filters": {
+        "sort-golive": {
+          "id": "sort-golive",
+          "column": "go_live_date",
+          "order": "asc"
+        }
+      }
+    },
+    "runOnPageLoad": true,
+    "table_id": "5257c2ed-2b4c-4536-b5ea-0a4768b18219"
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "01c2aeff-be44-4f82-a59b-d5572c015c9c",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "3a83b579-4568-491d-ac18-e5fd378f5ef2",
+  "name": "stageChart",
+  "type": "Chart",
+  "pageId": "88eb71f2-ee8e-4523-a52f-e87afca7c7f9",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = queries.q_hires.data || []; var st = ['Offer accepted','Pre-boarding','Week 1','Completed']; var y = st.map(function(s){ return d.filter(function(r){ return r.stage === s; }).length; }); return {data:[{type:'bar', x:st, y:y, marker:{color:['#5B6478','#B45309','#00796B','#15803D'], line:{width:0} }, text:y.map(function(v){ return String(v); }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{x}<br>%{y} starters<extra></extra>'}], layout:{bargap:0.45, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{showgrid:false, showline:false}, yaxis:{rangemode:'tozero', gridcolor:'#EEF2F5', zeroline:false, showline:false, dtick:1} } }; })()}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "1ff5611d-43c5-4e83-a81a-14d1bb13eaa2",
+      "type": "desktop",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3a83b579-4568-491d-ac18-e5fd378f5ef2",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "b8b9409d-d0a0-4292-9d98-f3b801bd0e67",
+      "type": "mobile",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "3a83b579-4568-491d-ac18-e5fd378f5ef2",
+      "dimensionUnit": "count"
+    }
+  ]
+}

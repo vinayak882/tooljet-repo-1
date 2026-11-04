@@ -1,0 +1,14 @@
+{
+  "id": "bbf28ae3-72ae-4951-99ae-87ec5f37fcb7",
+  "name": "Refresh q_hires after q_provision_access",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "queryId": "fb2c0b7b-a56a-4017-beeb-afa3ed998044",
+    "actionId": "run-query",
+    "queryName": "q_hires"
+  },
+  "sourceId": "98b503cb-4486-4cb8-a4b6-7390d1bc9091",
+  "target": "data_query",
+  "appVersionId": "d7708a0e-2ebf-43e6-9984-7119bf124fe2"
+}

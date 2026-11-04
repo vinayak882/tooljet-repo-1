@@ -1,0 +1,62 @@
+{
+  "id": "6edb2b4d-7834-4ef0-8f6d-cfa746c95b06",
+  "name": "accessChart",
+  "type": "Chart",
+  "pageId": "62bae4de-c148-4bd8-9332-5201e3b1f628",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = queries.q_vendors.data || []; var t = ['None','Internal','Customer data']; var y = t.map(function(s){ return d.filter(function(r){ return r.data_access === s; }).length; }); return {data:[{type:'pie', hole:0.55, labels:t, values:y, sort:false, marker:{colors:['#A0A7B8','#00796B','#B45309']}, textinfo:'percent', textposition:'inside', insidetextorientation:'horizontal', textfont:{size:12, color:'#FFFFFF'}, hovertemplate:'%{label}<br>%{value} vendors<extra></extra>'}], layout:{showlegend:true, legend:{orientation:'v', x:1, y:0.5}, font:{family:'Inter', size:12, color:'#5B6478'} } }; })()}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "210ff731-50c1-4a05-bd94-32e656daf4f5",
+      "type": "desktop",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "6edb2b4d-7834-4ef0-8f6d-cfa746c95b06",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "eaf060d3-46b1-4849-bc50-07afe9119bab",
+      "type": "mobile",
+      "top": 180,
+      "left": 22,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "6edb2b4d-7834-4ef0-8f6d-cfa746c95b06",
+      "dimensionUnit": "count"
+    }
+  ]
+}

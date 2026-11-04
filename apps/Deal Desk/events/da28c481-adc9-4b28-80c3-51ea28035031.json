@@ -1,0 +1,14 @@
+{
+  "id": "da28c481-adc9-4b28-80c3-51ea28035031",
+  "name": "Confirm q_approve",
+  "index": 1,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "message": "Discount approved",
+    "actionId": "show-alert",
+    "alertType": "success"
+  },
+  "sourceId": "72b893d5-37fe-400c-a797-3a6d0ecc49b4",
+  "target": "data_query",
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b"
+}

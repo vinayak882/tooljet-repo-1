@@ -1,0 +1,14 @@
+{
+  "id": "1fbab3bf-bb45-4fb4-8824-f012c082030b",
+  "name": "Refresh q_esc after q_resolve",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "queryId": "660c6d5a-3269-48df-9ebf-3edbe4221084",
+    "actionId": "run-query",
+    "queryName": "q_esc"
+  },
+  "sourceId": "a5d3ca2b-7fdc-4be0-ba35-256ce407db5b",
+  "target": "data_query",
+  "appVersionId": "5188f4a9-56d5-4056-b1da-38da541c167f"
+}

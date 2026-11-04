@@ -1,0 +1,33 @@
+{
+  "id": "1c97fa6a-b661-4a3e-856e-bf53f42eb89f",
+  "name": "Aging",
+  "handle": "aging",
+  "index": 999,
+  "disabled": false,
+  "hidden": false,
+  "icon": "IconHourglass",
+  "autoComputeLayout": true,
+  "appVersionId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9",
+  "pageGroupIndex": 2,
+  "pageGroupId": null,
+  "isPageGroup": false,
+  "url": null,
+  "openIn": "new_tab",
+  "type": "default",
+  "pageHeader": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "pageFooter": {
+    "border": "var(--cc-weak-border)",
+    "height": 60,
+    "showOnMobile": false,
+    "showOnDesktop": false,
+    "backgroundColor": "var(--cc-surface1-surface)"
+  },
+  "appId": "",
+  "targetCorelationId": null
+}

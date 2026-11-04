@@ -1,0 +1,37 @@
+{
+  "id": "ffef1ee4-a3db-41eb-a1ef-e23fa1e351a3",
+  "kind": "restapi",
+  "options": {
+    "development": {
+      "auth_type": "none",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ]
+      ],
+      "url": "{{constants.FX_API_BASE_URL}}"
+    },
+    "production": {
+      "auth_type": "none",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ]
+      ],
+      "url": "{{constants.FX_API_BASE_URL}}"
+    },
+    "staging": {
+      "auth_type": "none",
+      "headers": [
+        [
+          "Accept",
+          "application/json"
+        ]
+      ],
+      "url": "{{constants.FX_API_BASE_URL}}"
+    }
+  },
+  "type": "default"
+}

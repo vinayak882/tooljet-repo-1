@@ -1,0 +1,62 @@
+{
+  "id": "4d41ffca-3c1e-408c-8a4c-319875a23818",
+  "name": "agingChart",
+  "type": "Chart",
+  "pageId": "1c97fa6a-b661-4a3e-856e-bf53f42eb89f",
+  "parent": null,
+  "properties": {
+    "title": {
+      "value": ""
+    },
+    "plotFromJson": {
+      "value": "{{true}}"
+    },
+    "jsonDescription": {
+      "value": "{{(function(){ var d = (queries.q_inv.data || []).filter(function(r){ return r.status !== 'Paid'; }); var b = ['Current','1–30','31–60','61–90','90+']; var bk = function(n){ return n <= 0 ? 0 : (n <= 30 ? 1 : (n <= 60 ? 2 : (n <= 90 ? 3 : 4))); }; var y = [0,0,0,0,0]; d.forEach(function(r){ y[bk(r.days_overdue || 0)] += (r.amount_gbp || 0); }); return {data:[{type:'bar', x:b, y:y, marker:{color:['#00796B','#B45309','#B45309','#B91C1C','#B91C1C'], line:{width:0} }, text:y.map(function(v){ return '£' + Math.round(v/1000) + 'k'; }), textposition:'outside', cliponaxis:false, textfont:{size:12, color:'#5B6478'}, hovertemplate:'%{x} days<br>£%{y:,.0f}<extra></extra>'}], layout:{bargap:0.45, showlegend:false, font:{family:'Inter', size:12, color:'#5B6478'}, xaxis:{showgrid:false, showline:false}, yaxis:{rangemode:'tozero', gridcolor:'#EEF2F5', zeroline:false, showline:false, tickprefix:'£'} } }; })()}}"
+    }
+  },
+  "general": {},
+  "styles": {
+    "padding": {
+      "value": 16
+    },
+    "backgroundColor": {
+      "value": "var(--cc-surface1-surface)"
+    },
+    "borderColor": {
+      "value": "var(--cc-default-border)"
+    },
+    "borderRadius": {
+      "value": 12
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "95be2e07-cf1c-4337-aa0e-faeb2bab700b",
+      "type": "desktop",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "4d41ffca-3c1e-408c-8a4c-319875a23818",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "89409fee-147a-42fb-9bc8-3702e3c482c3",
+      "type": "mobile",
+      "top": 180,
+      "left": 2,
+      "width": 19,
+      "height": 320,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "4d41ffca-3c1e-408c-8a4c-319875a23818",
+      "dimensionUnit": "count"
+    }
+  ]
+}

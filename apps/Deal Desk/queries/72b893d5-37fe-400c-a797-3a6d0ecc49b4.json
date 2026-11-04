@@ -1,0 +1,33 @@
+{
+  "id": "72b893d5-37fe-400c-a797-3a6d0ecc49b4",
+  "name": "q_approve",
+  "options": {
+    "operation": "update_rows",
+    "update_rows": {
+      "columns": {
+        "0": {
+          "column": "status",
+          "value": "Approved"
+        },
+        "1": {
+          "column": "approver_email",
+          "value": "{{globals.currentUser.email}}"
+        }
+      },
+      "where_filters": {
+        "f-id": {
+          "id": "f-id",
+          "column": "id",
+          "operator": "eq",
+          "value": "{{components.dealsTable.selectedRow.id}}"
+        }
+      }
+    },
+    "runOnPageLoad": false,
+    "table_id": "b14b6b9b-bf53-47e6-a61c-d2587f7c543d"
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

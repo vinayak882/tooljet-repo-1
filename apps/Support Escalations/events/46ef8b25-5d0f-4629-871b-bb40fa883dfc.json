@@ -1,0 +1,15 @@
+{
+  "id": "46ef8b25-5d0f-4629-871b-bb40fa883dfc",
+  "name": "onClick → run-query",
+  "index": 0,
+  "event": {
+    "ref": "actions::resolve",
+    "eventId": "onClick",
+    "queryId": "a5d3ca2b-7fdc-4be0-ba35-256ce407db5b",
+    "actionId": "run-query",
+    "queryName": "q_resolve"
+  },
+  "sourceId": "f99796df-3784-4166-a0b6-f30eacd540df",
+  "target": "table_column",
+  "appVersionId": "5188f4a9-56d5-4056-b1da-38da541c167f"
+}

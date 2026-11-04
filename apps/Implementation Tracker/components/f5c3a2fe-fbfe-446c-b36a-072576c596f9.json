@@ -1,0 +1,46 @@
+{
+  "id": "f5c3a2fe-fbfe-446c-b36a-072576c596f9",
+  "name": "projectsHeader",
+  "type": "Html",
+  "pageId": "61584331-c0e3-45f9-b59a-240db9d3c363",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface);padding-top:8px\"><div style=\"font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--cc-primary-brand)\">Professional Services · Evotix</div><div style=\"font-size:26px;font-weight:700;color:var(--cc-primary-text);margin-top:4px\">Assure implementation portfolio</div><div style=\"font-size:13px;color:var(--cc-placeholder-text);margin-top:2px\">Every module rollout from kickoff to hypercare, with consultant ownership and delivery risk</div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "7629211d-7df1-4030-9c9f-6ce17c342123",
+      "type": "desktop",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "f5c3a2fe-fbfe-446c-b36a-072576c596f9",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "3d7e814f-170b-4b51-a461-a85ddd591f36",
+      "type": "mobile",
+      "top": 20,
+      "left": 2,
+      "width": 39,
+      "height": 110,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "f5c3a2fe-fbfe-446c-b36a-072576c596f9",
+      "dimensionUnit": "count"
+    }
+  ]
+}

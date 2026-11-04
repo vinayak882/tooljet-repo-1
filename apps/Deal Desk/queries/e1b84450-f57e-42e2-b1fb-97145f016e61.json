@@ -1,0 +1,24 @@
+{
+  "id": "e1b84450-f57e-42e2-b1fb-97145f016e61",
+  "name": "q_deals",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 500,
+      "offset": 0,
+      "order_filters": {
+        "sort-sub": {
+          "id": "sort-sub",
+          "column": "submitted_on",
+          "order": "desc"
+        }
+      }
+    },
+    "runOnPageLoad": true,
+    "table_id": "b14b6b9b-bf53-47e6-a61c-d2587f7c543d"
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "21f76716-af6b-462f-8893-42682f34664b",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

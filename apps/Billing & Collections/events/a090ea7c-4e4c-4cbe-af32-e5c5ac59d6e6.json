@@ -1,0 +1,14 @@
+{
+  "id": "a090ea7c-4e4c-4cbe-af32-e5c5ac59d6e6",
+  "name": "Refresh q_inv after q_mark_paid",
+  "index": 0,
+  "event": {
+    "eventId": "onDataQuerySuccess",
+    "queryId": "b849333a-29af-40ef-bdf0-67bc1e7f4a77",
+    "actionId": "run-query",
+    "queryName": "q_inv"
+  },
+  "sourceId": "359dea66-20eb-427f-86dd-d3d2a2110430",
+  "target": "data_query",
+  "appVersionId": "5ad5b937-6731-4845-8c80-304e9f7e4cf9"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "646e9a4f-8e9f-446c-bf11-9b593e8d550c",
+  "name": "dunningPolicy",
+  "type": "Html",
+  "pageId": "1c97fa6a-b661-4a3e-856e-bf53f42eb89f",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface)\"><div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:8px 20px\"><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px\"><span style=\"font-weight:600;color:var(--cc-warning-systemStatus)\">1–30 days</span><span style=\"color:var(--cc-primary-text)\">Automated reminder and credit controller call</span><span style=\"color:var(--cc-placeholder-text)\">Finance group</span></div><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px\"><span style=\"font-weight:600;color:var(--cc-warning-systemStatus)\">31–60 days</span><span style=\"color:var(--cc-primary-text)\">CSM looped in via Customer Health 360</span><span style=\"color:var(--cc-placeholder-text)\">Finance + Customer Success</span></div><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;font-size:14px\"><span style=\"font-weight:600;color:var(--cc-error-systemStatus)\">60+ days</span><span style=\"color:var(--cc-primary-text)\">CFO review, possible service suspension notice</span><span style=\"color:var(--cc-placeholder-text)\">Executive Leadership</span></div></div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "ea10909a-6bd7-48a6-be6f-e3515133e88e",
+      "type": "desktop",
+      "top": 560,
+      "left": 2,
+      "width": 39,
+      "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "646e9a4f-8e9f-446c-bf11-9b593e8d550c",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "434c08c4-defe-4521-86f0-bfae21beadf9",
+      "type": "mobile",
+      "top": 560,
+      "left": 2,
+      "width": 39,
+      "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "646e9a4f-8e9f-446c-bf11-9b593e8d550c",
+      "dimensionUnit": "count"
+    }
+  ]
+}

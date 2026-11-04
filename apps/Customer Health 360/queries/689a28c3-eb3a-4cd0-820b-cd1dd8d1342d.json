@@ -1,0 +1,24 @@
+{
+  "id": "689a28c3-eb3a-4cd0-820b-cd1dd8d1342d",
+  "name": "q_accounts",
+  "options": {
+    "operation": "list_rows",
+    "list_rows": {
+      "limit": 200,
+      "offset": 0,
+      "order_filters": {
+        "sort-arr": {
+          "id": "sort-arr",
+          "column": "arr_gbp",
+          "order": "desc"
+        }
+      }
+    },
+    "runOnPageLoad": true,
+    "table_id": "9752691b-80b7-4527-bd65-7c9da799d22f"
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "01c2aeff-be44-4f82-a59b-d5572c015c9c",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

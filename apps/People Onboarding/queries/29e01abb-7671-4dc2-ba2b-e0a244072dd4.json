@@ -1,0 +1,16 @@
+{
+  "id": "29e01abb-7671-4dc2-ba2b-e0a244072dd4",
+  "name": "q_bank_holidays",
+  "options": {
+    "method": "get",
+    "url": "/bank-holidays.json",
+    "url_params": [],
+    "headers": [],
+    "body": [],
+    "runOnPageLoad": true
+  },
+  "dataSourceId": "162d3488-3cc6-4d46-ac35-d6dc929afcf6",
+  "appVersionId": "d7708a0e-2ebf-43e6-9984-7119bf124fe2",
+  "kind": "restapi",
+  "dataSourceType": "default"
+}

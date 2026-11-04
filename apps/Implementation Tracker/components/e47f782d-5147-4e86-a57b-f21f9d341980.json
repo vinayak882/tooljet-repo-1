@@ -1,0 +1,56 @@
+{
+  "id": "e47f782d-5147-4e86-a57b-f21f9d341980",
+  "name": "riskHeading",
+  "type": "Text",
+  "pageId": "7afc80f8-95db-4d3d-857f-94ce223ebdbe",
+  "parent": null,
+  "properties": {
+    "text": {
+      "value": "Projects needing intervention (amber or red)"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "textSize": {
+      "value": 16
+    },
+    "fontWeight": {
+      "value": "bold"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "6d874eea-8e3d-4d90-927b-9139d31999d6",
+      "type": "desktop",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "e47f782d-5147-4e86-a57b-f21f9d341980",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "56e83101-01c3-4a31-bfc8-6cd00d3eff17",
+      "type": "mobile",
+      "top": 520,
+      "left": 2,
+      "width": 39,
+      "height": 30,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "e47f782d-5147-4e86-a57b-f21f9d341980",
+      "dimensionUnit": "count"
+    }
+  ]
+}

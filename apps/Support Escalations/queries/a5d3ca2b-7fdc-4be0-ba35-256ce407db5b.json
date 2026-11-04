@@ -1,0 +1,35 @@
+{
+  "id": "a5d3ca2b-7fdc-4be0-ba35-256ce407db5b",
+  "name": "q_resolve",
+  "options": {
+    "operation": "update_rows",
+    "update_rows": {
+      "columns": {
+        "0": {
+          "column": "status",
+          "value": "Resolved"
+        }
+      },
+      "where_filters": {
+        "f-id": {
+          "id": "f-id",
+          "column": "id",
+          "operator": "eq",
+          "value": "{{components.f99796df-3784-4166-a0b6-f30eacd540df.selectedRow.id}}"
+        }
+      }
+    },
+    "runOnPageLoad": false,
+    "requestConfirmation": true,
+    "confirmationMessage": "Mark this escalation as resolved? The customer will be notified by the support desk.",
+    "table_id": "2016606f-6f9f-483a-ab21-68dad2202070",
+    "delete_rows": {
+      "limit": 1,
+      "order_column": "id"
+    }
+  },
+  "dataSourceId": "35dac791-2b53-4119-91dd-f318688afe70",
+  "appVersionId": "5188f4a9-56d5-4056-b1da-38da541c167f",
+  "kind": "tooljetdb",
+  "dataSourceType": "static"
+}

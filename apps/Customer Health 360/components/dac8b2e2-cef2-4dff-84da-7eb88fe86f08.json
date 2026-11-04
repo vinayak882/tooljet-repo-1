@@ -1,0 +1,120 @@
+{
+  "id": "dac8b2e2-cef2-4dff-84da-7eb88fe86f08",
+  "name": "accountPicker",
+  "type": "DropdownV2",
+  "pageId": "b9853262-7698-49b9-a152-2214bdbdf434",
+  "parent": null,
+  "properties": {
+    "label": {
+      "value": "Account"
+    },
+    "placeholder": {
+      "value": "Choose an account"
+    },
+    "advanced": {
+      "value": "{{false}}"
+    },
+    "options": {
+      "value": [
+        {
+          "label": "Atlas Construction",
+          "value": "Atlas Construction"
+        },
+        {
+          "label": "Brightline Utilities",
+          "value": "Brightline Utilities"
+        },
+        {
+          "label": "Caledonia Rail",
+          "value": "Caledonia Rail"
+        },
+        {
+          "label": "Harbour Logistics",
+          "value": "Harbour Logistics",
+          "default": true,
+          "visible": true
+        },
+        {
+          "label": "Kestrel Mining",
+          "value": "Kestrel Mining"
+        },
+        {
+          "label": "Meridian Foods",
+          "value": "Meridian Foods"
+        },
+        {
+          "label": "Northwind Energy",
+          "value": "Northwind Energy"
+        },
+        {
+          "label": "Pennine Water",
+          "value": "Pennine Water"
+        },
+        {
+          "label": "Solent Ports",
+          "value": "Solent Ports"
+        },
+        {
+          "label": "Thames Pharma",
+          "value": "Thames Pharma"
+        }
+      ]
+    },
+    "showSearchInput": {
+      "value": true
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    },
+    "tooltipFormat": {
+      "value": "plainText"
+    }
+  },
+  "general": {},
+  "styles": {
+    "alignment": {
+      "value": "top"
+    },
+    "placeholderTextColor": {
+      "value": "var(--cc-placeholder-text)"
+    },
+    "menuWidthMode": {
+      "value": "matchField"
+    },
+    "menuCustomWidth": {
+      "value": "256"
+    },
+    "widthType": {
+      "value": "ofField"
+    }
+  },
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "bb831362-c278-4a3d-aa8c-a04446c40db6",
+      "type": "desktop",
+      "top": 140,
+      "left": 2,
+      "width": 12,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "dac8b2e2-cef2-4dff-84da-7eb88fe86f08",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "4828a101-550c-4efd-9f4c-31bdcb924897",
+      "type": "mobile",
+      "top": 140,
+      "left": 2,
+      "width": 12,
+      "height": 40,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "dac8b2e2-cef2-4dff-84da-7eb88fe86f08",
+      "dimensionUnit": "count"
+    }
+  ]
+}

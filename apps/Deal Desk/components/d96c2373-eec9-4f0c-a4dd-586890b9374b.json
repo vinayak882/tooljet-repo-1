@@ -1,0 +1,46 @@
+{
+  "id": "d96c2373-eec9-4f0c-a4dd-586890b9374b",
+  "name": "policyMatrix",
+  "type": "Html",
+  "pageId": "ca0a3f48-9496-49b5-ac46-83d800e49e4d",
+  "parent": null,
+  "properties": {
+    "rawHtml": {
+      "value": "<div style=\"height:100%;box-sizing:border-box;margin:0;font-family:inherit;background:var(--cc-appBackground-surface)\"><div style=\"background:var(--cc-surface1-surface);border:1px solid var(--cc-default-border);border-radius:12px;padding:8px 20px\"><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px\"><span style=\"font-weight:600;color:var(--cc-success-systemStatus)\">Up to 10%</span><span style=\"color:var(--cc-primary-text)\">Rep discretion, logged automatically</span><span style=\"color:var(--cc-placeholder-text)\">No approver</span></div><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--cc-weak-border);font-size:14px\"><span style=\"font-weight:600;color:var(--cc-warning-systemStatus)\">10% – 20%</span><span style=\"color:var(--cc-primary-text)\">Finance Controller approval in this app</span><span style=\"color:var(--cc-placeholder-text)\">Finance group</span></div><div style=\"display:grid;grid-template-columns:160px 1fr 1fr;gap:16px;padding:12px 0;font-size:14px\"><span style=\"font-weight:600;color:var(--cc-error-systemStatus)\">Above 20%</span><span style=\"color:var(--cc-primary-text)\">CRO and CFO joint approval, deal review call</span><span style=\"color:var(--cc-placeholder-text)\">Executive Leadership group</span></div></div></div>"
+    },
+    "collapseWhenHidden": {
+      "value": "{{false}}"
+    }
+  },
+  "general": {},
+  "styles": {},
+  "generalStyles": {},
+  "displayPreferences": {},
+  "validation": {},
+  "layouts": [
+    {
+      "id": "a566db2d-a692-453d-882b-672402112b5f",
+      "type": "desktop",
+      "top": 560,
+      "left": 2,
+      "width": 39,
+      "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d96c2373-eec9-4f0c-a4dd-586890b9374b",
+      "dimensionUnit": "count"
+    },
+    {
+      "id": "0ad85bb7-4807-46ac-9a08-6660874b0a47",
+      "type": "mobile",
+      "top": 560,
+      "left": 2,
+      "width": 39,
+      "height": 200,
+      "widthPx": null,
+      "fillWidth": null,
+      "componentId": "d96c2373-eec9-4f0c-a4dd-586890b9374b",
+      "dimensionUnit": "count"
+    }
+  ]
+}
